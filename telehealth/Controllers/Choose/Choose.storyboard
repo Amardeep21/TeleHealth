@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Bold.otf">
+            <string>Quicksand-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Choose Screen-->
+        <scene sceneID="o0O-px-9RV">
+            <objects>
+                <viewController storyboardIdentifier="ChooseScreen" hidesBottomBarWhenPushed="YES" id="4Hw-Fs-dv3" customClass="ChooseScreen" customModule="Juthoor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F8X-7g-vNJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_gradient_and_element.png" translatesAutoresizingMaskIntoConstraints="NO" id="VVX-4C-Pde">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CLIENTS" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LqS-Mh-TTB">
+                                <rect key="frame" x="142.5" y="507" width="90.5" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="lY8-bY-OsS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="21"/>
+                                <color key="textColor" red="0.23137254901960785" green="0.33725490196078434" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patients_new_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="3PO-NI-V5g">
+                                <rect key="frame" x="119.5" y="371" width="136" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="136" id="Ome-SF-fJG"/>
+                                    <constraint firstAttribute="height" constant="136" id="PpG-C4-POv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONTINUE_AS" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OGa-UP-Rn3">
+                                <rect key="frame" x="100.5" y="70" width="174.5" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="xcp-7x-4oK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="24"/>
+                                <color key="textColor" red="0.23137254901960785" green="0.33725490196078434" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="psychologists_new_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="fQf-8Y-itA">
+                                <rect key="frame" x="119.5" y="165" width="136" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="136" id="JK7-iZ-ZRE"/>
+                                    <constraint firstAttribute="height" constant="136" id="Ydx-HK-jya"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THERAPIST" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Toy-1H-MrK">
+                                <rect key="frame" x="130.5" y="301" width="114.5" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="wO9-70-Ssm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="21"/>
+                                <color key="textColor" red="0.23137254901960785" green="0.33725490196078434" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skj-Ms-iwU">
+                                <rect key="frame" x="119.5" y="371" width="136" height="176"/>
+                                <connections>
+                                    <action selector="onPatients:" destination="4Hw-Fs-dv3" eventType="touchUpInside" id="dn1-jA-qnZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6x-hg-vFF">
+                                <rect key="frame" x="119.5" y="165" width="136" height="176"/>
+                                <connections>
+                                    <action selector="onPsychologists:" destination="4Hw-Fs-dv3" eventType="touchUpInside" id="gsn-cM-Fay"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uqn-Pv-XbA"/>
+                        <color key="backgroundColor" red="1" green="0.93333333333333335" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="VVX-4C-Pde" firstAttribute="leading" secondItem="uqn-Pv-XbA" secondAttribute="leading" id="4cy-I4-Z9g"/>
+                            <constraint firstItem="3PO-NI-V5g" firstAttribute="leading" secondItem="skj-Ms-iwU" secondAttribute="leading" id="Agm-dY-bMb"/>
+                            <constraint firstItem="J6x-hg-vFF" firstAttribute="leading" secondItem="fQf-8Y-itA" secondAttribute="leading" id="BI3-R4-136"/>
+                            <constraint firstItem="OGa-UP-Rn3" firstAttribute="centerX" secondItem="VVX-4C-Pde" secondAttribute="centerX" id="EgZ-H5-wLi"/>
+                            <constraint firstItem="LqS-Mh-TTB" firstAttribute="centerX" secondItem="3PO-NI-V5g" secondAttribute="centerX" id="Gms-La-5TG"/>
+                            <constraint firstItem="fQf-8Y-itA" firstAttribute="centerX" secondItem="VVX-4C-Pde" secondAttribute="centerX" id="LdU-qU-YYm"/>
+                            <constraint firstItem="Toy-1H-MrK" firstAttribute="centerX" secondItem="fQf-8Y-itA" secondAttribute="centerX" id="Ntc-L4-cl0"/>
+                            <constraint firstItem="LqS-Mh-TTB" firstAttribute="bottom" secondItem="skj-Ms-iwU" secondAttribute="bottom" id="QXu-9P-NT6"/>
+                            <constraint firstItem="J6x-hg-vFF" firstAttribute="trailing" secondItem="fQf-8Y-itA" secondAttribute="trailing" id="Xgd-zT-NZ3"/>
+                            <constraint firstItem="Toy-1H-MrK" firstAttribute="bottom" secondItem="J6x-hg-vFF" secondAttribute="bottom" id="ZTy-PX-vBx"/>
+                            <constraint firstAttribute="trailing" secondItem="VVX-4C-Pde" secondAttribute="trailing" id="eBn-Vf-blp"/>
+                            <constraint firstItem="J6x-hg-vFF" firstAttribute="top" secondItem="fQf-8Y-itA" secondAttribute="top" id="fiH-H6-INb"/>
+                            <constraint firstItem="3PO-NI-V5g" firstAttribute="top" secondItem="Toy-1H-MrK" secondAttribute="bottom" constant="30" id="fzT-Kh-1TB"/>
+                            <constraint firstItem="VVX-4C-Pde" firstAttribute="top" secondItem="F8X-7g-vNJ" secondAttribute="top" id="gnx-PE-lKE"/>
+                            <constraint firstItem="3PO-NI-V5g" firstAttribute="centerX" secondItem="J6x-hg-vFF" secondAttribute="centerX" id="kGL-Gc-mri"/>
+                            <constraint firstAttribute="bottom" secondItem="VVX-4C-Pde" secondAttribute="bottom" id="lMt-as-MOo"/>
+                            <constraint firstItem="fQf-8Y-itA" firstAttribute="top" secondItem="OGa-UP-Rn3" secondAttribute="bottom" constant="55" id="p1j-YI-BcZ"/>
+                            <constraint firstItem="3PO-NI-V5g" firstAttribute="trailing" secondItem="skj-Ms-iwU" secondAttribute="trailing" id="pVg-RJ-yF9"/>
+                            <constraint firstItem="Toy-1H-MrK" firstAttribute="top" secondItem="fQf-8Y-itA" secondAttribute="bottom" id="slA-W7-6KS"/>
+                            <constraint firstItem="3PO-NI-V5g" firstAttribute="top" secondItem="skj-Ms-iwU" secondAttribute="top" id="vOE-jS-e0q"/>
+                            <constraint firstItem="OGa-UP-Rn3" firstAttribute="top" secondItem="uqn-Pv-XbA" secondAttribute="top" constant="70" id="wae-Y2-NhD"/>
+                            <constraint firstItem="LqS-Mh-TTB" firstAttribute="top" secondItem="3PO-NI-V5g" secondAttribute="bottom" id="y8N-uz-YSR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0kL-AP-pjd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-49.275362318840585" y="127.90178571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back_gradient_and_element.png" width="1125" height="2436"/>
+        <image name="patients_new_image.png" width="411" height="411"/>
+        <image name="psychologists_new_image.png" width="411" height="411"/>
+    </resources>
+</document>

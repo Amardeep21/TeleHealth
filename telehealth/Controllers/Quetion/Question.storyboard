@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Bold.otf">
+            <string>Quicksand-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Question Screen-->
+        <scene sceneID="gaL-Fn-KaH">
+            <objects>
+                <viewController storyboardIdentifier="QuestionScreen" hidesBottomBarWhenPushed="YES" id="MOT-v2-8ak" customClass="QuestionScreen" customModule="Juthoor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4rg-Oh-Yfx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_gradient_color.png" translatesAutoresizingMaskIntoConstraints="NO" id="K6a-b5-JdA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ls7-aE-ydk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hdi-Ee-CYF">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nou-AL-tNe" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                                <rect key="frame" x="330" y="24" width="60" height="34"/>
+                                                <color key="backgroundColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="92J-nH-qQ8"/>
+                                                    <constraint firstAttribute="height" constant="34" id="xNq-jG-RaY"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="17"/>
+                                                <state key="normal" title="SKIP">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="17"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="onSkip:" destination="MOT-v2-8ak" eventType="touchUpInside" id="8E3-6P-8S2"/>
+                                                </connections>
+                                            </button>
+                                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="question_image" translatesAutoresizingMaskIntoConstraints="NO" id="ttl-BK-xS0">
+                                                <rect key="frame" x="41.333333333333343" y="70" width="331.33333333333326" height="212"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="212" id="wHC-2o-gVK"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSs-OP-8YZ" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                                <rect key="frame" x="24" y="544.33333333333337" width="366" height="40"/>
+                                                <color key="backgroundColor" red="0.23137254901960785" green="0.33725490196078434" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="Eh3-if-eQP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="22"/>
+                                                <state key="normal" title="OKAY"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="onContinue:" destination="MOT-v2-8ak" eventType="touchUpInside" id="e87-TK-4l6"/>
+                                                </connections>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b37-Of-2ZI">
+                                                <rect key="frame" x="0.0" y="16" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="lEr-G3-Lt2"/>
+                                                    <constraint firstAttribute="height" constant="50" id="lFc-pg-8HI"/>
+                                                </constraints>
+                                                <state key="normal" image="back_icon_black_color"/>
+                                                <connections>
+                                                    <action selector="onBack:" destination="MOT-v2-8ak" eventType="touchUpInside" id="rnV-qV-etX"/>
+                                                </connections>
+                                            </button>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qdq-OR-5NF">
+                                                <rect key="frame" x="20" y="410" width="374" height="100"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="tVn-Lt-FMC"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="MOT-v2-8ak" id="Fd0-2E-nww"/>
+                                                    <outlet property="delegate" destination="MOT-v2-8ak" id="R9Z-m8-BIR"/>
+                                                </connections>
+                                            </tableView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLEASE_ANSWER_WHATEVER_IS_COMFRTABLE" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bod-ze-nV5">
+                                                <rect key="frame" x="20" y="336" width="374" height="49"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24.670000000000002" id="HaP-yu-LVa"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="21"/>
+                                                <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OSs-OP-8YZ" secondAttribute="bottom" constant="21.329999999999998" id="14O-dv-BeX"/>
+                                            <constraint firstItem="qdq-OR-5NF" firstAttribute="centerX" secondItem="OSs-OP-8YZ" secondAttribute="centerX" id="71H-Rc-IcM"/>
+                                            <constraint firstItem="bod-ze-nV5" firstAttribute="top" secondItem="ttl-BK-xS0" secondAttribute="bottom" constant="54" id="7gT-yC-u9A"/>
+                                            <constraint firstItem="OSs-OP-8YZ" firstAttribute="leading" secondItem="hdi-Ee-CYF" secondAttribute="leading" constant="24" id="89X-56-4wj"/>
+                                            <constraint firstItem="qdq-OR-5NF" firstAttribute="leading" secondItem="hdi-Ee-CYF" secondAttribute="leading" constant="20" id="8J2-XX-Ezc"/>
+                                            <constraint firstItem="ttl-BK-xS0" firstAttribute="top" secondItem="nou-AL-tNe" secondAttribute="bottom" constant="12" id="JZf-Qh-BmA"/>
+                                            <constraint firstItem="OSs-OP-8YZ" firstAttribute="centerX" secondItem="hdi-Ee-CYF" secondAttribute="centerX" id="Jjc-z0-gIx"/>
+                                            <constraint firstAttribute="trailing" secondItem="nou-AL-tNe" secondAttribute="trailing" constant="24" id="QRa-cj-yIB"/>
+                                            <constraint firstItem="OSs-OP-8YZ" firstAttribute="top" secondItem="qdq-OR-5NF" secondAttribute="bottom" constant="34.329999999999998" id="R1B-Pg-G9u"/>
+                                            <constraint firstItem="qdq-OR-5NF" firstAttribute="trailing" secondItem="bod-ze-nV5" secondAttribute="trailing" id="TQj-Je-4z3"/>
+                                            <constraint firstItem="ttl-BK-xS0" firstAttribute="centerX" secondItem="hdi-Ee-CYF" secondAttribute="centerX" id="UVF-fD-FkK"/>
+                                            <constraint firstItem="nou-AL-tNe" firstAttribute="top" secondItem="hdi-Ee-CYF" secondAttribute="top" constant="24" id="Ugf-sE-768"/>
+                                            <constraint firstItem="qdq-OR-5NF" firstAttribute="top" secondItem="bod-ze-nV5" secondAttribute="bottom" constant="25" id="bUg-RM-GsH"/>
+                                            <constraint firstItem="b37-Of-2ZI" firstAttribute="leading" secondItem="hdi-Ee-CYF" secondAttribute="leading" id="eZH-US-QSr"/>
+                                            <constraint firstAttribute="trailing" secondItem="OSs-OP-8YZ" secondAttribute="trailing" constant="24" id="h1Y-AC-18p"/>
+                                            <constraint firstItem="nou-AL-tNe" firstAttribute="centerY" secondItem="b37-Of-2ZI" secondAttribute="centerY" id="qBh-9X-tQK"/>
+                                            <constraint firstItem="ttl-BK-xS0" firstAttribute="width" secondItem="hdi-Ee-CYF" secondAttribute="width" multiplier="0.8" id="qYI-qD-DoK"/>
+                                            <constraint firstItem="qdq-OR-5NF" firstAttribute="leading" secondItem="bod-ze-nV5" secondAttribute="leading" id="vqs-Si-g6w"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hdi-Ee-CYF" firstAttribute="width" secondItem="Ls7-aE-ydk" secondAttribute="width" id="9FO-AA-HVK"/>
+                                    <constraint firstItem="hdi-Ee-CYF" firstAttribute="top" secondItem="Ls7-aE-ydk" secondAttribute="top" id="LzT-o3-KKL"/>
+                                    <constraint firstItem="hdi-Ee-CYF" firstAttribute="leading" secondItem="Ls7-aE-ydk" secondAttribute="leading" id="RRL-76-X4H"/>
+                                    <constraint firstAttribute="bottom" secondItem="hdi-Ee-CYF" secondAttribute="bottom" id="kep-Zq-bnH"/>
+                                    <constraint firstItem="hdi-Ee-CYF" firstAttribute="height" secondItem="Ls7-aE-ydk" secondAttribute="height" priority="250" id="rvY-Ub-oUo"/>
+                                    <constraint firstAttribute="trailing" secondItem="hdi-Ee-CYF" secondAttribute="trailing" id="vJv-OP-PXM"/>
+                                </constraints>
+                            </scrollView>
+                            <view hidden="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yvs-aW-AbL">
+                                <rect key="frame" x="414" y="0.0" width="414" height="1500"/>
+                                <subviews>
+                                    <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I9n-eP-CxP">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l93-bK-efh" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="341" y="1212" width="65" height="30"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="65" id="1mQ-dF-R5S"/>
+                                            <constraint firstAttribute="height" constant="30" id="DtD-OD-M9Z"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="18"/>
+                                        <state key="normal" title="Done">
+                                            <color key="titleColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onDonePickerView:" destination="MOT-v2-8ak" eventType="touchUpInside" id="9hk-A2-Qto"/>
+                                        </connections>
+                                    </button>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3GY-7i-87w">
+                                        <rect key="frame" x="0.0" y="1250" width="414" height="250"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="250" id="ED8-SL-rwK"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="dataSource" destination="MOT-v2-8ak" id="J4w-lK-Ymn"/>
+                                            <outlet property="delegate" destination="MOT-v2-8ak" id="1Mu-vY-zkZ"/>
+                                        </connections>
+                                    </pickerView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="I9n-eP-CxP" secondAttribute="bottom" id="3wF-Ph-PfO"/>
+                                    <constraint firstItem="3GY-7i-87w" firstAttribute="leading" secondItem="Yvs-aW-AbL" secondAttribute="leading" id="7gg-ce-8tx"/>
+                                    <constraint firstAttribute="trailing" secondItem="l93-bK-efh" secondAttribute="trailing" constant="8" id="IBo-TE-VW5"/>
+                                    <constraint firstItem="I9n-eP-CxP" firstAttribute="top" secondItem="Yvs-aW-AbL" secondAttribute="top" id="Lwp-At-Hda"/>
+                                    <constraint firstAttribute="trailing" secondItem="3GY-7i-87w" secondAttribute="trailing" id="TQ3-VH-enQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="I9n-eP-CxP" secondAttribute="trailing" id="n24-ZI-VPf"/>
+                                    <constraint firstAttribute="bottom" secondItem="3GY-7i-87w" secondAttribute="bottom" id="paz-ct-z4K"/>
+                                    <constraint firstItem="3GY-7i-87w" firstAttribute="top" secondItem="l93-bK-efh" secondAttribute="bottom" constant="8" id="pzK-ut-xgk"/>
+                                    <constraint firstItem="I9n-eP-CxP" firstAttribute="leading" secondItem="Yvs-aW-AbL" secondAttribute="leading" id="vjv-40-Lyh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3uO-R3-5xl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="K6a-b5-JdA" firstAttribute="trailing" secondItem="4rg-Oh-Yfx" secondAttribute="trailing" id="1rh-LQ-Qf6"/>
+                            <constraint firstItem="Yvs-aW-AbL" firstAttribute="top" secondItem="4rg-Oh-Yfx" secondAttribute="top" id="ATG-MW-wZJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Yvs-aW-AbL" secondAttribute="trailing" id="E1X-1V-kcQ"/>
+                            <constraint firstItem="Ls7-aE-ydk" firstAttribute="top" secondItem="3uO-R3-5xl" secondAttribute="top" id="SOp-XV-FKR"/>
+                            <constraint firstItem="K6a-b5-JdA" firstAttribute="leading" secondItem="4rg-Oh-Yfx" secondAttribute="leading" id="TW6-vU-p0r"/>
+                            <constraint firstItem="K6a-b5-JdA" firstAttribute="top" secondItem="4rg-Oh-Yfx" secondAttribute="top" id="VPO-3L-Ynh"/>
+                            <constraint firstItem="K6a-b5-JdA" firstAttribute="bottom" secondItem="4rg-Oh-Yfx" secondAttribute="bottom" id="jtT-L7-kZX"/>
+                            <constraint firstItem="Yvs-aW-AbL" firstAttribute="leading" secondItem="4rg-Oh-Yfx" secondAttribute="leading" id="l0g-Wx-E7q"/>
+                            <constraint firstItem="Ls7-aE-ydk" firstAttribute="leading" secondItem="3uO-R3-5xl" secondAttribute="leading" id="mZV-r4-R67"/>
+                            <constraint firstItem="3uO-R3-5xl" firstAttribute="bottom" secondItem="Ls7-aE-ydk" secondAttribute="bottom" id="r4K-nd-vuk"/>
+                            <constraint firstItem="3uO-R3-5xl" firstAttribute="trailing" secondItem="Ls7-aE-ydk" secondAttribute="trailing" id="yHE-81-Vez"/>
+                            <constraint firstAttribute="bottom" secondItem="Yvs-aW-AbL" secondAttribute="bottom" id="yIn-uq-jUK"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="1500"/>
+                    <connections>
+                        <outlet property="pickerView" destination="Yvs-aW-AbL" id="gFm-qW-Neg"/>
+                        <outlet property="questionTableView" destination="qdq-OR-5NF" id="9CF-pS-Og0"/>
+                        <outlet property="questionTableViewHeightConstraint" destination="tVn-Lt-FMC" id="jKp-UN-C4V"/>
+                        <outlet property="rangePickerView" destination="3GY-7i-87w" id="1yY-ri-e96"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A21-u3-KYm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="163.768115942029" y="124.72826086956523"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="OSs-OP-8YZ">
+            <size key="intrinsicContentSize" width="59" height="38"/>
+        </designable>
+        <designable name="l93-bK-efh">
+            <size key="intrinsicContentSize" width="43" height="33"/>
+        </designable>
+        <designable name="nou-AL-tNe">
+            <size key="intrinsicContentSize" width="38" height="32"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="back_gradient_color.png" width="1125" height="2436"/>
+        <image name="back_icon_black_color" width="12" height="20.666666030883789"/>
+        <image name="question_image" width="300" height="212.66667175292969"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

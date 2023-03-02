@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qF6-Rk-zFQ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Juthoor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_gradient_color.png" translatesAutoresizingMaskIntoConstraints="NO" id="xOt-kR-3Dh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="juthoor_full_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="41V-bq-Qo9">
+                                <rect key="frame" x="20" y="373" width="374" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Kp7-vJ-NKA"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xOt-kR-3Dh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MPb-2u-LjB"/>
+                            <constraint firstItem="41V-bq-Qo9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NhX-f7-1tj"/>
+                            <constraint firstItem="41V-bq-Qo9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VSI-Rw-tN2"/>
+                            <constraint firstItem="41V-bq-Qo9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Y05-kq-1St"/>
+                            <constraint firstItem="xOt-kR-3Dh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fKL-B6-TbH"/>
+                            <constraint firstItem="xOt-kR-3Dh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="nrK-Xp-7xr"/>
+                            <constraint firstAttribute="bottom" secondItem="xOt-kR-3Dh" secondAttribute="bottom" id="rDK-el-QVe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="41V-bq-Qo9" secondAttribute="trailing" constant="20" id="z6c-O2-N3G"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SK3-No-894"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1039.1304347826087" y="138.61607142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ypb-Cj-QU8">
+            <objects>
+                <navigationController storyboardIdentifier="rootNav" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="qF6-Rk-zFQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Vda-EC-mD4">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ubI-7U-pqv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JJg-cU-JqZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back_gradient_color.png" width="1125" height="2436"/>
+        <image name="juthoor_full_logo.png" width="800" height="242"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

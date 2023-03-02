@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Medium.ttf">
+            <string>Quicksand-Medium</string>
+        </array>
+        <array key="Quicksand-SemiBold.ttf">
+            <string>Quicksand-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Voice Call Screen-->
+        <scene sceneID="QjS-fx-Zf2">
+            <objects>
+                <viewController storyboardIdentifier="VoiceCallScreen" id="kIj-Z9-4Cr" customClass="VoiceCallScreen" customModule="Juthoor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WCe-cd-y2n">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J3T-1i-u0C">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Jacobs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLP-Hs-AiP">
+                                <rect key="frame" x="126.00000000000001" y="91.333333333333329" width="162.33333333333337" height="34"/>
+                                <fontDescription key="fontDescription" name="Quicksand-SemiBold" family="Quicksand" pointSize="27"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="GJc-HP-ep6">
+                                <rect key="frame" x="142" y="611" width="130" height="65"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfv-x0-3E3">
+                                        <rect key="frame" x="0.0" y="0.0" width="63" height="65"/>
+                                        <state key="normal" image="calling_disable_icon"/>
+                                        <connections>
+                                            <action selector="onAudio:" destination="kIj-Z9-4Cr" eventType="touchUpInside" id="4tF-wV-UDv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fc4-Mx-4PY">
+                                        <rect key="frame" x="67" y="0.0" width="63" height="65"/>
+                                        <state key="normal" image="call_icon_voice_call"/>
+                                        <connections>
+                                            <action selector="onCall:" destination="kIj-Z9-4Cr" eventType="touchUpInside" id="12Q-OD-JRB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="7Ur-Xc-ZeV"/>
+                                    <constraint firstAttribute="width" constant="130" id="z1S-Vd-QLN"/>
+                                </constraints>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="voice_background_icon" translatesAutoresizingMaskIntoConstraints="NO" id="chM-6Y-p5S">
+                                <rect key="frame" x="62" y="257.66666666666669" width="290" height="220.66666666666669"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_holder_image" translatesAutoresizingMaskIntoConstraints="NO" id="qNu-TA-c3Y" customClass="dateSportImageView" customModule="Juthoor" customModuleProvider="target">
+                                <rect key="frame" x="133" y="294" width="148" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="148" id="W9E-Wa-OCo"/>
+                                    <constraint firstAttribute="height" constant="148" id="twu-Je-Q2X"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="74"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JOINING" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Amx-RM-roY">
+                                <rect key="frame" x="171" y="141.33333333333334" width="72.333333333333314" height="22.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="18"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fH6-9o-cPr"/>
+                        <color key="backgroundColor" red="1" green="0.99215686274509807" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="chM-6Y-p5S" firstAttribute="centerY" secondItem="WCe-cd-y2n" secondAttribute="centerY" id="7iB-jT-jya"/>
+                            <constraint firstItem="Amx-RM-roY" firstAttribute="top" secondItem="JLP-Hs-AiP" secondAttribute="bottom" constant="16" id="87f-ur-KSo"/>
+                            <constraint firstItem="qNu-TA-c3Y" firstAttribute="centerY" secondItem="J3T-1i-u0C" secondAttribute="centerY" id="9PQ-hW-Fti"/>
+                            <constraint firstItem="JLP-Hs-AiP" firstAttribute="centerX" secondItem="J3T-1i-u0C" secondAttribute="centerX" id="AIv-0f-guE"/>
+                            <constraint firstItem="chM-6Y-p5S" firstAttribute="centerX" secondItem="WCe-cd-y2n" secondAttribute="centerX" id="B8N-Bp-FyN"/>
+                            <constraint firstItem="J3T-1i-u0C" firstAttribute="leading" secondItem="fH6-9o-cPr" secondAttribute="leading" id="GlJ-0e-xw3"/>
+                            <constraint firstItem="Amx-RM-roY" firstAttribute="centerX" secondItem="JLP-Hs-AiP" secondAttribute="centerX" id="Icu-BJ-OmE"/>
+                            <constraint firstItem="fH6-9o-cPr" firstAttribute="trailing" secondItem="J3T-1i-u0C" secondAttribute="trailing" id="Igi-LN-OvI"/>
+                            <constraint firstItem="chM-6Y-p5S" firstAttribute="height" secondItem="J3T-1i-u0C" secondAttribute="height" multiplier="0.3" id="TjB-dD-vxj"/>
+                            <constraint firstAttribute="bottom" secondItem="J3T-1i-u0C" secondAttribute="bottom" id="UQl-Wz-OtZ"/>
+                            <constraint firstItem="GJc-HP-ep6" firstAttribute="centerX" secondItem="J3T-1i-u0C" secondAttribute="centerX" id="i4p-bJ-qIk"/>
+                            <constraint firstItem="J3T-1i-u0C" firstAttribute="top" secondItem="WCe-cd-y2n" secondAttribute="top" id="koG-YL-gsP"/>
+                            <constraint firstItem="fH6-9o-cPr" firstAttribute="bottom" secondItem="GJc-HP-ep6" secondAttribute="bottom" constant="60" id="uYE-cW-9J4"/>
+                            <constraint firstItem="chM-6Y-p5S" firstAttribute="top" secondItem="Amx-RM-roY" secondAttribute="bottom" constant="93.670000000000002" id="v4l-EO-81I"/>
+                            <constraint firstItem="chM-6Y-p5S" firstAttribute="width" secondItem="J3T-1i-u0C" secondAttribute="width" multiplier="0.7" id="vOF-GA-8bm"/>
+                            <constraint firstItem="qNu-TA-c3Y" firstAttribute="centerX" secondItem="J3T-1i-u0C" secondAttribute="centerX" id="x0I-iH-juy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="muteButton" destination="Dfv-x0-3E3" id="wPW-ZB-tdW"/>
+                        <outlet property="profileImageView" destination="qNu-TA-c3Y" id="xZP-57-gGP"/>
+                        <outlet property="timerLabel" destination="Amx-RM-roY" id="1QJ-MQ-waq"/>
+                        <outlet property="userNameLabel" destination="JLP-Hs-AiP" id="L8B-gE-25V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lVC-6h-aIZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89.855072463768124" y="122.28260869565219"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="qNu-TA-c3Y">
+            <size key="intrinsicContentSize" width="80" height="80"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="call_icon_voice_call" width="52" height="52"/>
+        <image name="calling_disable_icon" width="52" height="52"/>
+        <image name="place_holder_image" width="80" height="80"/>
+        <image name="voice_background_icon" width="280" height="280"/>
+    </resources>
+</document>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Bold.otf">
+            <string>Quicksand-Bold</string>
+        </array>
+        <array key="Quicksand-Medium.ttf">
+            <string>Quicksand-Medium</string>
+        </array>
+        <array key="Quicksand-Regular.otf">
+            <string>Quicksand-Regular</string>
+        </array>
+        <array key="TimesNewRoman.ttf">
+            <string>.SFUI-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ChatsTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatsCell" rowHeight="69" id="KGk-i7-Jjw" customClass="ChatsTableViewCell" customModule="Juthoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1Z-xm-NLi">
+                        <rect key="frame" x="76" y="17" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="12"/>
+                        <color key="textColor" red="0.0078431372550000003" green="0.031372549020000001" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJg-eV-AND" customClass="dateSportLabel" customModule="Juthoor" customModuleProvider="target">
+                        <rect key="frame" x="92" y="20" width="16" height="16"/>
+                        <color key="backgroundColor" red="0.0" green="0.63529411759999999" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="QSG-y7-d3l"/>
+                            <constraint firstAttribute="height" constant="16" id="d0h-Kj-u6h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcO-Pi-Pah">
+                        <rect key="frame" x="108" y="12" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="10"/>
+                        <color key="textColor" red="0.57527381180000003" green="0.60650658609999997" blue="0.68542242050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1I-JH-YKc">
+                        <rect key="frame" x="76" y="12" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.63529411759999999" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_holder_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="3pr-zB-dsD" customClass="dateSportImageView" customModule="Juthoor" customModuleProvider="target">
+                        <rect key="frame" x="16" y="12" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="Ivc-xg-r4j"/>
+                            <constraint firstAttribute="height" constant="45" id="uAL-lz-7U4"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="9"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKD-UV-QIV" customClass="dateSportLabel" customModule="Juthoor" customModuleProvider="target">
+                        <rect key="frame" x="50" y="46" width="16" height="16"/>
+                        <color key="backgroundColor" red="0.0" green="0.81568627449999997" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="5Nr-x8-dcO"/>
+                            <constraint firstAttribute="width" constant="16" id="uZf-gZ-QIU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="9"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qKD-UV-QIV" firstAttribute="bottom" secondItem="3pr-zB-dsD" secondAttribute="bottom" constant="5" id="1Qi-iz-eN5"/>
+                    <constraint firstItem="U1I-JH-YKc" firstAttribute="leading" secondItem="3pr-zB-dsD" secondAttribute="trailing" constant="15" id="LpJ-y1-EpR"/>
+                    <constraint firstItem="U1I-JH-YKc" firstAttribute="top" secondItem="3pr-zB-dsD" secondAttribute="top" id="Ud9-bu-EXo"/>
+                    <constraint firstItem="gcO-Pi-Pah" firstAttribute="centerY" secondItem="U1I-JH-YKc" secondAttribute="centerY" id="Ujm-xV-xQZ"/>
+                    <constraint firstItem="X1Z-xm-NLi" firstAttribute="leading" secondItem="U1I-JH-YKc" secondAttribute="leading" id="VEw-jh-mM2"/>
+                    <constraint firstItem="gcO-Pi-Pah" firstAttribute="trailing" secondItem="DJg-eV-AND" secondAttribute="trailing" id="YvX-dC-Lf4"/>
+                    <constraint firstItem="DJg-eV-AND" firstAttribute="top" secondItem="gcO-Pi-Pah" secondAttribute="bottom" constant="8" id="aAB-7G-td6"/>
+                    <constraint firstItem="DJg-eV-AND" firstAttribute="leading" secondItem="X1Z-xm-NLi" secondAttribute="trailing" constant="16" id="aN0-KC-8Im"/>
+                    <constraint firstItem="gcO-Pi-Pah" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="U1I-JH-YKc" secondAttribute="trailing" constant="5" id="iw8-iq-bkg"/>
+                    <constraint firstItem="3pr-zB-dsD" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="kXE-NE-w9d"/>
+                    <constraint firstItem="X1Z-xm-NLi" firstAttribute="top" secondItem="U1I-JH-YKc" secondAttribute="bottom" constant="5" id="pnu-Pr-QwU"/>
+                    <constraint firstItem="3pr-zB-dsD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="qOS-Ff-pBn"/>
+                    <constraint firstItem="qKD-UV-QIV" firstAttribute="trailing" secondItem="3pr-zB-dsD" secondAttribute="trailing" constant="5" id="uwH-cY-Gdp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="131.8840579710145" y="99.441964285714278"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="3pr-zB-dsD">
+            <size key="intrinsicContentSize" width="270" height="270"/>
+        </designable>
+        <designable name="DJg-eV-AND">
+            <size key="intrinsicContentSize" width="11.5" height="12"/>
+        </designable>
+        <designable name="qKD-UV-QIV"/>
+    </designables>
+    <resources>
+        <image name="place_holder_image.png" width="270" height="270"/>
+    </resources>
+</document>

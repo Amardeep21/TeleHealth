@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Bold.otf">
+            <string>Quicksand-Bold</string>
+        </array>
+        <array key="Quicksand-Medium.ttf">
+            <string>Quicksand-Medium</string>
+        </array>
+        <array key="Quicksand-Regular.otf">
+            <string>Quicksand-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Email Verification Screen-->
+        <scene sceneID="oAk-Yg-PC4">
+            <objects>
+                <viewController storyboardIdentifier="EmailVerificationScreen" id="7zz-e1-sMT" customClass="EmailVerificationScreen" customModule="Juthoor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bgE-bp-68y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="log_in___sign_in_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="c6B-QY-pDU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUI-op-mCN">
+                                <rect key="frame" x="4" y="48" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AkI-OX-1h1"/>
+                                    <constraint firstAttribute="width" constant="50" id="ncq-K5-FxO"/>
+                                </constraints>
+                                <state key="normal" image="back_icon"/>
+                                <connections>
+                                    <action selector="onBack:" destination="7zz-e1-sMT" eventType="touchUpInside" id="1le-zP-urQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLEASE_FOLLOW_THE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="101" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCR-8V-egq">
+                                <rect key="frame" x="41.5" y="430" width="331" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="qbg-uP-x1C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="14"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WE_JUST_SENT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="101" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcP-fn-fjR">
+                                <rect key="frame" x="41.5" y="374" width="331" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="2JK-6Z-AYg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="16"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VERIFICATION_EMAIL" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="101" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PiK-64-fhQ">
+                                <rect key="frame" x="41.5" y="318" width="331" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="gAg-LG-giV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="24"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="email_verified_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="kAH-HI-ra5">
+                                <rect key="frame" x="122" y="124" width="170" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="MUg-kD-seU"/>
+                                    <constraint firstAttribute="height" constant="170" id="mwZ-zp-Y89"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIm-PD-0kV" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                <rect key="frame" x="22" y="500" width="370" height="50"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3Nk-IH-T6m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="22"/>
+                                <state key="normal" title="RESEND_EMAIL"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onResendEmail:" destination="7zz-e1-sMT" eventType="touchUpInside" id="oMJ-yf-PsO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALREADY_VERIFIED_EMAIL" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WBV-wl-fBC" customClass="ActiveLabel" customModule="ActiveLabel">
+                                <rect key="frame" x="50" y="566" width="314" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="RhK-PO-0Pk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="18"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.031372549020000001" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="URLSelectedColor">
+                                        <color key="value" red="0.0" green="0.63529411759999999" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="highlightFontName" value="click here"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1TX-DY-72J"/>
+                        <color key="backgroundColor" red="1" green="0.93333333333333335" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="1TX-DY-72J" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="WBV-wl-fBC" secondAttribute="bottom" constant="50" id="0Po-at-ggI"/>
+                            <constraint firstItem="lcP-fn-fjR" firstAttribute="trailing" secondItem="PiK-64-fhQ" secondAttribute="trailing" id="1SW-Sm-yXD"/>
+                            <constraint firstItem="kAH-HI-ra5" firstAttribute="top" secondItem="1TX-DY-72J" secondAttribute="top" constant="80" id="2E6-LP-vRw"/>
+                            <constraint firstItem="xCR-8V-egq" firstAttribute="leading" secondItem="PiK-64-fhQ" secondAttribute="leading" id="2FT-Sl-ZsA"/>
+                            <constraint firstItem="lcP-fn-fjR" firstAttribute="centerX" secondItem="PiK-64-fhQ" secondAttribute="centerX" id="7FE-LY-J69"/>
+                            <constraint firstAttribute="trailing" secondItem="c6B-QY-pDU" secondAttribute="trailing" id="CbZ-Db-Fgu"/>
+                            <constraint firstItem="qUI-op-mCN" firstAttribute="leading" secondItem="1TX-DY-72J" secondAttribute="leading" constant="4" id="GDp-ts-Pwd"/>
+                            <constraint firstItem="PiK-64-fhQ" firstAttribute="width" secondItem="c6B-QY-pDU" secondAttribute="width" multiplier="0.8" id="O8b-cx-evq"/>
+                            <constraint firstItem="PiK-64-fhQ" firstAttribute="centerX" secondItem="kAH-HI-ra5" secondAttribute="centerX" id="Owt-CL-dVl"/>
+                            <constraint firstItem="1TX-DY-72J" firstAttribute="trailing" secondItem="rIm-PD-0kV" secondAttribute="trailing" constant="22" id="Qea-05-rDI"/>
+                            <constraint firstItem="c6B-QY-pDU" firstAttribute="leading" secondItem="bgE-bp-68y" secondAttribute="leading" id="SSm-9D-hjq"/>
+                            <constraint firstItem="PiK-64-fhQ" firstAttribute="top" secondItem="kAH-HI-ra5" secondAttribute="bottom" constant="24" id="TSl-Pk-dQm"/>
+                            <constraint firstItem="WBV-wl-fBC" firstAttribute="top" secondItem="rIm-PD-0kV" secondAttribute="bottom" constant="16" id="Uu1-CY-Ag1"/>
+                            <constraint firstItem="lcP-fn-fjR" firstAttribute="top" secondItem="PiK-64-fhQ" secondAttribute="bottom" constant="16" id="bli-99-7pL"/>
+                            <constraint firstItem="1TX-DY-72J" firstAttribute="trailing" secondItem="WBV-wl-fBC" secondAttribute="trailing" constant="50" id="dXU-jl-aVq"/>
+                            <constraint firstItem="c6B-QY-pDU" firstAttribute="top" secondItem="bgE-bp-68y" secondAttribute="top" id="h6e-8Q-bkI"/>
+                            <constraint firstItem="xCR-8V-egq" firstAttribute="trailing" secondItem="PiK-64-fhQ" secondAttribute="trailing" id="hOI-QS-zzL"/>
+                            <constraint firstItem="kAH-HI-ra5" firstAttribute="centerX" secondItem="c6B-QY-pDU" secondAttribute="centerX" id="hjX-pS-2OJ"/>
+                            <constraint firstItem="xCR-8V-egq" firstAttribute="top" secondItem="lcP-fn-fjR" secondAttribute="bottom" constant="16" id="iyT-rI-0PZ"/>
+                            <constraint firstItem="WBV-wl-fBC" firstAttribute="leading" secondItem="1TX-DY-72J" secondAttribute="leading" constant="50" id="mNO-mr-G5x"/>
+                            <constraint firstItem="rIm-PD-0kV" firstAttribute="leading" secondItem="1TX-DY-72J" secondAttribute="leading" constant="22" id="mUK-ae-2P6"/>
+                            <constraint firstItem="qUI-op-mCN" firstAttribute="top" secondItem="1TX-DY-72J" secondAttribute="top" constant="4" id="qdo-eh-EzQ"/>
+                            <constraint firstItem="rIm-PD-0kV" firstAttribute="top" secondItem="xCR-8V-egq" secondAttribute="bottom" constant="30" id="s0E-hn-D1F"/>
+                            <constraint firstItem="WBV-wl-fBC" firstAttribute="centerX" secondItem="rIm-PD-0kV" secondAttribute="centerX" id="sUi-bh-8sZ"/>
+                            <constraint firstItem="rIm-PD-0kV" firstAttribute="centerX" secondItem="xCR-8V-egq" secondAttribute="centerX" id="svq-WZ-bL6"/>
+                            <constraint firstItem="lcP-fn-fjR" firstAttribute="leading" secondItem="PiK-64-fhQ" secondAttribute="leading" id="y92-BU-XMV"/>
+                            <constraint firstAttribute="bottom" secondItem="c6B-QY-pDU" secondAttribute="bottom" id="ydr-Pe-n5d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="qUI-op-mCN" id="ZPj-wH-SgX"/>
+                        <outlet property="clickHereLabel" destination="WBV-wl-fBC" id="pQV-OR-AAa"/>
+                        <outlet property="emailWithMessageLabel" destination="lcP-fn-fjR" id="AZj-Jz-u2L"/>
+                        <outlet property="resendEmailButton" destination="rIm-PD-0kV" id="Bk3-Na-deh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7vH-px-be6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1.4492753623188408" y="160.71428571428569"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="WBV-wl-fBC">
+            <size key="intrinsicContentSize" width="232.5" height="21"/>
+        </designable>
+        <designable name="rIm-PD-0kV">
+            <size key="intrinsicContentSize" width="163" height="38"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="back_icon" width="17" height="28.5"/>
+        <image name="email_verified_image.png" width="510" height="523"/>
+        <image name="log_in___sign_in_bg.png" width="1125" height="2436"/>
+    </resources>
+</document>

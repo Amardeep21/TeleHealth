@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Bold.otf">
+            <string>Quicksand-Bold</string>
+        </array>
+        <array key="Quicksand-Regular.otf">
+            <string>Quicksand-Regular</string>
+        </array>
+        <array key="Quicksand-SemiBold.ttf">
+            <string>Quicksand-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Manage Subscription Screen-->
+        <scene sceneID="ytP-9S-74L">
+            <objects>
+                <viewController storyboardIdentifier="ManageSubscriptionScreen" hidesBottomBarWhenPushed="YES" id="9zp-3f-u04" customClass="ManageSubscriptionScreen" customModule="Juthoor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cbF-aB-Mm0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_profile_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="pu5-aK-dSZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmB-Ln-3B8">
+                                <rect key="frame" x="0.0" y="44" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0w7-31-78Y"/>
+                                    <constraint firstAttribute="width" constant="50" id="oH0-fS-Kdt"/>
+                                </constraints>
+                                <state key="normal" image="back_icon_black_color"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manage Subscription" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="101" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Th-08-Cp9">
+                                <rect key="frame" x="106.5" y="59" width="162.5" height="20"/>
+                                <fontDescription key="fontDescription" name="Quicksand-SemiBold" family="Quicksand" pointSize="17"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gV-pp-EH8">
+                                <rect key="frame" x="0.0" y="94" width="375" height="0.5"/>
+                                <color key="backgroundColor" red="0.0078431372550000003" green="0.031372549020000001" blue="0.039215686270000001" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.29999999999999999" id="ZsW-Fi-6t0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2cA-5D-HKw">
+                                <rect key="frame" x="0.0" y="94.5" width="375" height="572.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subscribe.png" translatesAutoresizingMaskIntoConstraints="NO" id="Whb-xe-uzm">
+                                        <rect key="frame" x="45" y="75" width="285" height="195"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="195" id="CB0-q7-miU"/>
+                                            <constraint firstAttribute="width" constant="285" id="s5L-Pj-d4T"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVm-ki-UWa">
+                                        <rect key="frame" x="40" y="310" width="295" height="49"/>
+                                        <string key="text">Start fellling better with your
+life today by selecting a subscription
+that works for you.</string>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="14"/>
+                                        <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvz-Hu-1Dw" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="40" y="381" width="295" height="40"/>
+                                        <color key="backgroundColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="wzt-5o-bxM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="16"/>
+                                        <state key="normal" title="Subscribe"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onSubscribe:" destination="9zp-3f-u04" eventType="touchUpInside" id="mtd-Rk-2wm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="SVm-ki-UWa" firstAttribute="top" secondItem="Whb-xe-uzm" secondAttribute="bottom" constant="40" id="4Ka-IU-jgS"/>
+                                    <constraint firstItem="Whb-xe-uzm" firstAttribute="top" secondItem="2cA-5D-HKw" secondAttribute="top" constant="75" id="I3y-be-ehq"/>
+                                    <constraint firstItem="Whb-xe-uzm" firstAttribute="leading" secondItem="2cA-5D-HKw" secondAttribute="leading" constant="45" id="JHp-fQ-an1"/>
+                                    <constraint firstItem="SVm-ki-UWa" firstAttribute="centerX" secondItem="2cA-5D-HKw" secondAttribute="centerX" id="OUB-HI-XrJ"/>
+                                    <constraint firstItem="qvz-Hu-1Dw" firstAttribute="trailing" secondItem="SVm-ki-UWa" secondAttribute="trailing" id="a9W-Z5-30U"/>
+                                    <constraint firstItem="qvz-Hu-1Dw" firstAttribute="leading" secondItem="SVm-ki-UWa" secondAttribute="leading" id="chn-ak-owK"/>
+                                    <constraint firstAttribute="trailing" secondItem="SVm-ki-UWa" secondAttribute="trailing" constant="40" id="guR-lV-3x1"/>
+                                    <constraint firstItem="SVm-ki-UWa" firstAttribute="leading" secondItem="2cA-5D-HKw" secondAttribute="leading" constant="40" id="hrH-62-SoO"/>
+                                    <constraint firstItem="qvz-Hu-1Dw" firstAttribute="centerX" secondItem="2cA-5D-HKw" secondAttribute="centerX" id="nAS-9D-0v3"/>
+                                    <constraint firstAttribute="trailing" secondItem="Whb-xe-uzm" secondAttribute="trailing" constant="45" id="vb5-LV-t4b"/>
+                                    <constraint firstItem="qvz-Hu-1Dw" firstAttribute="top" secondItem="SVm-ki-UWa" secondAttribute="bottom" constant="22" id="wsk-d7-z1q"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CKK-X8-uMn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6gV-pp-EH8" firstAttribute="top" secondItem="CKK-X8-uMn" secondAttribute="top" constant="50" id="0DE-GY-Vqt"/>
+                            <constraint firstItem="6gV-pp-EH8" firstAttribute="top" secondItem="wmB-Ln-3B8" secondAttribute="bottom" id="4AD-6P-3GA"/>
+                            <constraint firstItem="wmB-Ln-3B8" firstAttribute="leading" secondItem="CKK-X8-uMn" secondAttribute="leading" id="5Ax-vp-IJm"/>
+                            <constraint firstAttribute="trailing" secondItem="pu5-aK-dSZ" secondAttribute="trailing" id="6tg-yN-XBZ"/>
+                            <constraint firstItem="2cA-5D-HKw" firstAttribute="leading" secondItem="CKK-X8-uMn" secondAttribute="leading" id="71a-MF-ySA"/>
+                            <constraint firstAttribute="bottom" secondItem="2cA-5D-HKw" secondAttribute="bottom" id="7Mx-IR-qNA"/>
+                            <constraint firstItem="6gV-pp-EH8" firstAttribute="leading" secondItem="CKK-X8-uMn" secondAttribute="leading" id="Bkp-HC-6Xu"/>
+                            <constraint firstItem="pu5-aK-dSZ" firstAttribute="leading" secondItem="CKK-X8-uMn" secondAttribute="leading" id="Jkx-4k-aAG"/>
+                            <constraint firstItem="6Th-08-Cp9" firstAttribute="centerX" secondItem="pu5-aK-dSZ" secondAttribute="centerX" id="VbS-nf-Lgt"/>
+                            <constraint firstItem="wmB-Ln-3B8" firstAttribute="centerY" secondItem="6Th-08-Cp9" secondAttribute="centerY" id="YrM-nG-Gsn"/>
+                            <constraint firstItem="2cA-5D-HKw" firstAttribute="top" secondItem="6gV-pp-EH8" secondAttribute="bottom" id="fUU-DY-TC0"/>
+                            <constraint firstAttribute="trailing" secondItem="6gV-pp-EH8" secondAttribute="trailing" id="qeV-Nb-5IG"/>
+                            <constraint firstAttribute="bottom" secondItem="pu5-aK-dSZ" secondAttribute="bottom" id="re8-2O-mCh"/>
+                            <constraint firstItem="CKK-X8-uMn" firstAttribute="trailing" secondItem="2cA-5D-HKw" secondAttribute="trailing" id="sr8-fc-inM"/>
+                            <constraint firstItem="pu5-aK-dSZ" firstAttribute="top" secondItem="cbF-aB-Mm0" secondAttribute="top" id="uLB-rK-APz"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LGS-p7-vuc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1176.0869565217392" y="105.16304347826087"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="qvz-Hu-1Dw">
+            <size key="intrinsicContentSize" width="73" height="31"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="back_icon_black_color" width="12" height="20.5"/>
+        <image name="subscribe.png" width="858" height="588"/>
+        <image name="user_profile_back.png" width="1125" height="2436"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

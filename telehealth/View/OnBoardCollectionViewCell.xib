@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Bold.otf">
+            <string>Quicksand-Bold</string>
+        </array>
+        <array key="Quicksand-Regular.otf">
+            <string>Quicksand-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnBoardCell" id="iW6-th-kUd" customClass="OnBoardCollectionViewCell" customModule="Juthoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="695"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mq8-cY-VHK">
+                <rect key="frame" x="0.0" y="0.0" width="408" height="695"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Aek-Kf-HYF">
+                        <rect key="frame" x="0.0" y="80" width="408" height="326.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="101" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kf6-ez-Ci5">
+                        <rect key="frame" x="20" y="456.5" width="368" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="KKA-QA-rh7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="26"/>
+                        <color key="textColor" red="0.23137254901960785" green="0.33725490196078434" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="101" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zd6-K9-NMd">
+                        <rect key="frame" x="20" y="497.5" width="368" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Ozr-wY-wUi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="21"/>
+                        <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zd6-K9-NMd" firstAttribute="trailing" secondItem="kf6-ez-Ci5" secondAttribute="trailing" id="3wv-LX-zjF"/>
+                    <constraint firstItem="zd6-K9-NMd" firstAttribute="leading" secondItem="kf6-ez-Ci5" secondAttribute="leading" id="9yX-8u-yXN"/>
+                    <constraint firstItem="kf6-ez-Ci5" firstAttribute="centerX" secondItem="Aek-Kf-HYF" secondAttribute="centerX" id="INv-IB-3kp"/>
+                    <constraint firstAttribute="trailing" secondItem="Aek-Kf-HYF" secondAttribute="trailing" id="IkY-kG-bVI"/>
+                    <constraint firstItem="Aek-Kf-HYF" firstAttribute="top" secondItem="mq8-cY-VHK" secondAttribute="top" constant="80" id="PF3-pg-riZ"/>
+                    <constraint firstItem="Aek-Kf-HYF" firstAttribute="leading" secondItem="mq8-cY-VHK" secondAttribute="leading" id="RXg-aS-dAK"/>
+                    <constraint firstAttribute="trailing" secondItem="kf6-ez-Ci5" secondAttribute="trailing" constant="20" id="cIV-R1-YCj"/>
+                    <constraint firstItem="Aek-Kf-HYF" firstAttribute="height" secondItem="mq8-cY-VHK" secondAttribute="height" multiplier="0.47" id="en3-Ax-uyM"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zd6-K9-NMd" secondAttribute="bottom" constant="30" id="f1f-4m-BlQ"/>
+                    <constraint firstItem="kf6-ez-Ci5" firstAttribute="leading" secondItem="mq8-cY-VHK" secondAttribute="leading" constant="20" id="fYT-Ba-tsE"/>
+                    <constraint firstItem="Aek-Kf-HYF" firstAttribute="centerX" secondItem="mq8-cY-VHK" secondAttribute="centerX" id="g6M-AD-qh2"/>
+                    <constraint firstItem="kf6-ez-Ci5" firstAttribute="top" secondItem="Aek-Kf-HYF" secondAttribute="bottom" constant="50" id="mBG-dQ-zXd"/>
+                    <constraint firstItem="zd6-K9-NMd" firstAttribute="top" secondItem="kf6-ez-Ci5" secondAttribute="bottom" constant="1" id="zQ5-kC-VkE"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="408" height="695"/>
+            <connections>
+                <outlet property="mainImageView" destination="Aek-Kf-HYF" id="kO0-vo-BCw"/>
+                <outlet property="messageLabel" destination="zd6-K9-NMd" id="dtN-FW-63k"/>
+                <outlet property="titleLabel" destination="kf6-ez-Ci5" id="V6c-4P-nsq"/>
+            </connections>
+            <point key="canvasLocation" x="856.52173913043487" y="220.64732142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="onboarding_1.png" width="1125" height="1215"/>
+    </resources>
+</document>

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Bold.otf">
+            <string>Quicksand-Bold</string>
+        </array>
+        <array key="Quicksand-Regular.otf">
+            <string>Quicksand-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Pin Screen-->
+        <scene sceneID="Kpd-67-1Cx">
+            <objects>
+                <viewController storyboardIdentifier="PinScreen" id="V53-8S-zHX" customClass="PinScreen" customModule="Juthoor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pfh-VV-OQE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="log_in___sign_in_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="jMu-1m-uEg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="z01-82-Qda">
+                                <rect key="frame" x="55.5" y="222" width="264" height="68"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oy4-Ez-mtf" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="68" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="68" id="Osq-ie-MRX"/>
+                                            <constraint firstAttribute="width" constant="68" id="SuF-jd-D02"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="30"/>
+                                        <state key="normal" title="1">
+                                            <color key="titleColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="34"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onNumbers:" destination="V53-8S-zHX" eventType="touchUpInside" id="m2G-It-tHA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TM8-7b-CQ0" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="98" y="0.0" width="68" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="68" id="6G7-Qe-7P6"/>
+                                            <constraint firstAttribute="height" constant="68" id="YsE-Yl-j4G"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="30"/>
+                                        <state key="normal" title="2">
+                                            <color key="titleColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="34"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onNumbers:" destination="V53-8S-zHX" eventType="touchUpInside" id="RGt-4r-kli"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRJ-vJ-TmN" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="196" y="0.0" width="68" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="68" id="foc-ca-OSS"/>
+                                            <constraint firstAttribute="height" constant="68" id="hiD-jO-KXr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="30"/>
+                                        <state key="normal" title="3">
+                                            <color key="titleColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="34"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onNumbers:" destination="V53-8S-zHX" eventType="touchUpInside" id="2c9-Iq-mZZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="cRo-uj-6KE">
+                                <rect key="frame" x="55.5" y="310" width="264" height="68"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJs-nc-AZ0" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="68" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="68" id="EL8-UO-xYF"/>
+                                            <constraint firstAttribute="width" constant="68" id="dhf-s6-fCf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="30"/>
+                                        <state key="normal" title="4">
+                                            <color key="titleColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="34"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onNumbers:" destination="V53-8S-zHX" eventType="touchUpInside" id="JMe-00-Bte"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iik-mx-fdn" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="98" y="0.0" width="68" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="68" id="IQv-f8-W0B"/>
+                                            <constraint firstAttribute="height" constant="68" id="eAH-pc-QqL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="30"/>
+                                        <state key="normal" title="5">
+                                            <color key="titleColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="34"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onNumbers:" destination="V53-8S-zHX" eventType="touchUpInside" id="SDk-Sd-1kI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xt6-ZY-Xrl" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="196" y="0.0" width="68" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="68" id="cHE-nj-OXU"/>
+                                            <constraint firstAttribute="width" constant="68" id="m8s-ru-Shn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="30"/>
+                                        <state key="normal" title="6">
+                                            <color key="titleColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="34"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onNumbers:" destination="V53-8S-zHX" eventType="touchUpInside" id="IxG-Zg-q13"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="5xD-xe-CDk">
+                                <rect key="frame" x="55.5" y="398" width="264" height="68"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CdA-KE-UCQ" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="68" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="68" id="D1Q-7a-r8h"/>
+                                            <constraint firstAttribute="height" constant="68" id="aVs-S3-3jb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="30"/>
+                                        <state key="normal" title="7">
+                                            <color key="titleColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="34"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onNumbers:" destination="V53-8S-zHX" eventType="touchUpInside" id="UzS-AQ-LkM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyV-5c-PSq" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="98" y="0.0" width="68" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="68" id="dUV-Rp-Wai"/>
+                                            <constraint firstAttribute="width" constant="68" id="qDK-UH-GAJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="30"/>
+                                        <state key="normal" title="8">
+                                            <color key="titleColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="34"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onNumbers:" destination="V53-8S-zHX" eventType="touchUpInside" id="tim-6l-FX8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvU-H8-v4z" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="196" y="0.0" width="68" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="68" id="874-2Q-CAX"/>
+                                            <constraint firstAttribute="height" constant="68" id="ie2-Ax-gxG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="30"/>
+                                        <state key="normal" title="9">
+                                            <color key="titleColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="34"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onNumbers:" destination="V53-8S-zHX" eventType="touchUpInside" id="VHf-SZ-jeG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="6za-J2-2Fd">
+                                <rect key="frame" x="55.5" y="486" width="264" height="68"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeI-FN-tyF" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="68" height="68"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="68" id="cJE-Tq-3WF"/>
+                                            <constraint firstAttribute="width" constant="68" id="ga2-ko-gpx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="30"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.0078431372550000003" green="0.031372549020000001" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zav-7I-se1" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="98" y="0.0" width="68" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="68" id="BfC-yE-DfL"/>
+                                            <constraint firstAttribute="height" constant="68" id="P7K-bT-Ov1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="30"/>
+                                        <state key="normal" title="0">
+                                            <color key="titleColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="34"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onNumbers:" destination="V53-8S-zHX" eventType="touchUpInside" id="Erd-vU-InJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qeq-oD-FrJ" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="196" y="0.0" width="68" height="68"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="68" id="3fT-4K-ob0"/>
+                                            <constraint firstAttribute="height" constant="68" id="hul-NG-Jfd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="30"/>
+                                        <inset key="imageEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                                        <state key="normal" image="Cancel_icon">
+                                            <color key="titleColor" red="0.0078431372550000003" green="0.031372549020000001" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.0078431372550000003" green="0.031372549020000001" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onCancel:" destination="V53-8S-zHX" eventType="touchUpInside" id="XKz-em-Ada"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREATE_A_NEW_PIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKC-83-UQK">
+                                <rect key="frame" x="64" y="70" width="247" height="28"/>
+                                <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="24"/>
+                                <color key="textColor" red="0.23137254901960785" green="0.33725490196078434" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="hKS-5V-ZmX">
+                                <rect key="frame" x="141.5" y="148" width="92" height="14"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="50e-ga-860" customClass="dateSportView" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="14" height="14"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A84-Du-Mfq" customClass="dateSportView" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="26" y="0.0" width="14" height="14"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wcp-Vn-qlR" customClass="dateSportView" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="52" y="0.0" width="14" height="14"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sbY-Wb-piu" customClass="dateSportView" customModule="Juthoor" customModuleProvider="target">
+                                        <rect key="frame" x="78" y="0.0" width="14" height="14"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="CRG-Dk-id8"/>
+                                    <constraint firstAttribute="height" constant="14" id="QDk-GR-MCv"/>
+                                </constraints>
+                            </stackView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k94-Pz-3GM">
+                                <rect key="frame" x="4" y="20" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="7zr-tE-1Ge"/>
+                                    <constraint firstAttribute="width" constant="50" id="TVj-L4-6A7"/>
+                                </constraints>
+                                <state key="normal" image="back_icon"/>
+                                <connections>
+                                    <action selector="onBack:" destination="V53-8S-zHX" eventType="touchUpInside" id="wyj-aU-Eyx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRX-GV-FR9">
+                                <rect key="frame" x="72.5" y="604" width="230" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="174" id="Y7C-Ks-OTd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="16"/>
+                                <state key="normal" title="FORGOT_PIN_SET_NEW_PIN"/>
+                                <connections>
+                                    <action selector="onForgotPin:" destination="V53-8S-zHX" eventType="touchUpInside" id="R3G-PW-6VE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0xc-I3-HeI"/>
+                        <color key="backgroundColor" red="1" green="0.93333333333333335" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="cRo-uj-6KE" firstAttribute="trailing" secondItem="z01-82-Qda" secondAttribute="trailing" id="25B-DX-wvh"/>
+                            <constraint firstItem="z01-82-Qda" firstAttribute="top" secondItem="hKS-5V-ZmX" secondAttribute="bottom" constant="60" id="IkO-Jx-dUg"/>
+                            <constraint firstItem="jMu-1m-uEg" firstAttribute="top" secondItem="Pfh-VV-OQE" secondAttribute="top" id="IrL-56-bxO"/>
+                            <constraint firstItem="jMu-1m-uEg" firstAttribute="bottom" secondItem="Pfh-VV-OQE" secondAttribute="bottom" id="Kdg-rW-PGM"/>
+                            <constraint firstItem="DRX-GV-FR9" firstAttribute="centerX" secondItem="Pfh-VV-OQE" secondAttribute="centerX" id="M47-6n-UVj"/>
+                            <constraint firstItem="cRo-uj-6KE" firstAttribute="leading" secondItem="z01-82-Qda" secondAttribute="leading" id="MMh-bF-aeK"/>
+                            <constraint firstItem="DRX-GV-FR9" firstAttribute="top" secondItem="Zav-7I-se1" secondAttribute="bottom" constant="50" id="PCL-8U-E8C"/>
+                            <constraint firstItem="z01-82-Qda" firstAttribute="centerX" secondItem="jMu-1m-uEg" secondAttribute="centerX" id="Pyk-71-v0b"/>
+                            <constraint firstItem="jMu-1m-uEg" firstAttribute="leading" secondItem="Pfh-VV-OQE" secondAttribute="leading" id="Tid-0T-WYr"/>
+                            <constraint firstItem="cRo-uj-6KE" firstAttribute="top" secondItem="z01-82-Qda" secondAttribute="bottom" constant="20" id="UO4-VR-IZN"/>
+                            <constraint firstItem="hKS-5V-ZmX" firstAttribute="centerX" secondItem="jMu-1m-uEg" secondAttribute="centerX" id="UPf-uW-DMo"/>
+                            <constraint firstItem="5xD-xe-CDk" firstAttribute="trailing" secondItem="cRo-uj-6KE" secondAttribute="trailing" id="Xsr-vr-RGY"/>
+                            <constraint firstItem="vKC-83-UQK" firstAttribute="centerX" secondItem="jMu-1m-uEg" secondAttribute="centerX" id="ZEg-Gq-QOe"/>
+                            <constraint firstItem="5xD-xe-CDk" firstAttribute="leading" secondItem="cRo-uj-6KE" secondAttribute="leading" id="aBD-S5-RRi"/>
+                            <constraint firstItem="k94-Pz-3GM" firstAttribute="leading" secondItem="0xc-I3-HeI" secondAttribute="leading" constant="4" id="aWW-Ex-iRY"/>
+                            <constraint firstItem="vKC-83-UQK" firstAttribute="top" secondItem="0xc-I3-HeI" secondAttribute="top" constant="70" id="bBx-82-iXe"/>
+                            <constraint firstItem="k94-Pz-3GM" firstAttribute="top" secondItem="0xc-I3-HeI" secondAttribute="top" constant="20" id="kD4-mO-wWB"/>
+                            <constraint firstItem="5xD-xe-CDk" firstAttribute="top" secondItem="cRo-uj-6KE" secondAttribute="bottom" constant="20" id="koU-nQ-fKf"/>
+                            <constraint firstItem="jMu-1m-uEg" firstAttribute="trailing" secondItem="Pfh-VV-OQE" secondAttribute="trailing" id="l82-Av-hhW"/>
+                            <constraint firstItem="6za-J2-2Fd" firstAttribute="leading" secondItem="5xD-xe-CDk" secondAttribute="leading" id="mDn-pC-bsJ"/>
+                            <constraint firstItem="hKS-5V-ZmX" firstAttribute="top" secondItem="vKC-83-UQK" secondAttribute="bottom" constant="50" id="qAs-tj-tjD"/>
+                            <constraint firstItem="6za-J2-2Fd" firstAttribute="top" secondItem="5xD-xe-CDk" secondAttribute="bottom" constant="20" id="tZT-ii-Xvv"/>
+                            <constraint firstItem="6za-J2-2Fd" firstAttribute="trailing" secondItem="5xD-xe-CDk" secondAttribute="trailing" id="xKT-pS-Nxj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="k94-Pz-3GM" id="rKj-fU-UU6"/>
+                        <outlet property="cancelButton" destination="Qeq-oD-FrJ" id="9Ed-9i-5P7"/>
+                        <outlet property="createConfirmPinLabel" destination="vKC-83-UQK" id="S5A-Ml-ppW"/>
+                        <outlet property="firstNumberView" destination="50e-ga-860" id="CBt-58-khe"/>
+                        <outlet property="forgotPinButton" destination="DRX-GV-FR9" id="xfc-XA-koq"/>
+                        <outlet property="fourNumberView" destination="sbY-Wb-piu" id="QaA-di-XpK"/>
+                        <outlet property="secondNumberView" destination="A84-Du-Mfq" id="WiV-D2-gXw"/>
+                        <outlet property="stackView1" destination="z01-82-Qda" id="97J-tE-8oL"/>
+                        <outlet property="stackView2" destination="cRo-uj-6KE" id="dlj-2Z-2A0"/>
+                        <outlet property="stackView3" destination="5xD-xe-CDk" id="xWP-nG-YOb"/>
+                        <outlet property="stackView4" destination="6za-J2-2Fd" id="k9N-rl-VNC"/>
+                        <outlet property="stackView5" destination="hKS-5V-ZmX" id="Jvw-eB-P55"/>
+                        <outlet property="thirdNumberView" destination="wcp-Vn-qlR" id="hd3-pv-sdS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Er-1u-1eA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="79.200000000000003" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="CdA-KE-UCQ">
+            <size key="intrinsicContentSize" width="30" height="47"/>
+        </designable>
+        <designable name="CyV-5c-PSq">
+            <size key="intrinsicContentSize" width="30" height="47"/>
+        </designable>
+        <designable name="GeI-FN-tyF">
+            <size key="intrinsicContentSize" width="30" height="47"/>
+        </designable>
+        <designable name="Qeq-oD-FrJ">
+            <size key="intrinsicContentSize" width="35" height="35"/>
+        </designable>
+        <designable name="RJs-nc-AZ0">
+            <size key="intrinsicContentSize" width="30" height="47"/>
+        </designable>
+        <designable name="TM8-7b-CQ0">
+            <size key="intrinsicContentSize" width="30" height="47"/>
+        </designable>
+        <designable name="Xt6-ZY-Xrl">
+            <size key="intrinsicContentSize" width="30" height="47"/>
+        </designable>
+        <designable name="Zav-7I-se1">
+            <size key="intrinsicContentSize" width="30" height="47"/>
+        </designable>
+        <designable name="iik-mx-fdn">
+            <size key="intrinsicContentSize" width="30" height="47"/>
+        </designable>
+        <designable name="oy4-Ez-mtf">
+            <size key="intrinsicContentSize" width="30" height="47"/>
+        </designable>
+        <designable name="pRJ-vJ-TmN">
+            <size key="intrinsicContentSize" width="30" height="47"/>
+        </designable>
+        <designable name="rvU-H8-v4z">
+            <size key="intrinsicContentSize" width="30" height="47"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Cancel_icon" width="35" height="26.5"/>
+        <image name="back_icon" width="17" height="28.5"/>
+        <image name="log_in___sign_in_bg.png" width="1125" height="2436"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

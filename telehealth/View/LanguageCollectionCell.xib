@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Medium.ttf">
+            <string>Quicksand-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LanguageCollectionCell" id="gTV-IL-0wX" customClass="LanguageCollectionCell" customModule="Juthoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="25"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="25"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- English" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBb-TB-aiV">
+                        <rect key="frame" x="4" y="2" width="72" height="21.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" id="abV-MQ-l6n"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="17"/>
+                        <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGY-os-nJq">
+                        <rect key="frame" x="76" y="0.0" width="24" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="TsQ-Q6-pA8"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                        <state key="normal" image="cancel_icon_view"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="WGY-os-nJq" firstAttribute="leading" secondItem="iBb-TB-aiV" secondAttribute="trailing" id="JA4-VI-g6L"/>
+                <constraint firstItem="iBb-TB-aiV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="Wim-OU-LTt"/>
+                <constraint firstItem="iBb-TB-aiV" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="cVZ-Kn-AuJ"/>
+                <constraint firstItem="WGY-os-nJq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pJz-EB-uzj"/>
+                <constraint firstAttribute="bottom" secondItem="WGY-os-nJq" secondAttribute="bottom" id="sCU-mE-0rW"/>
+                <constraint firstAttribute="trailing" secondItem="WGY-os-nJq" secondAttribute="trailing" id="tL5-ra-moW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="cancelButton" destination="WGY-os-nJq" id="ed9-Je-C3F"/>
+                <outlet property="languageName" destination="iBb-TB-aiV" id="J9D-tF-NCt"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="140.95982142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cancel_icon_view" width="24" height="24"/>
+    </resources>
+</document>

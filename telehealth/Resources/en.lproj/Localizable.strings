@@ -1,0 +1,372 @@
+/*
+  Localizable.strings
+  telehealth
+
+  Created by iroid on 30/07/20.
+  Copyright © 2020 iroid. All rights reserved.
+*/
+
+
+//English
+
+
+/* OnBoardingScreen */
+"WE_CARE_FOR_YOU" = "Mental Health Matters";
+"TERMS_CONDITIONS" = "";
+"YOU_CAN_DO_GREAT" = "Connecting with a mental health expert just became more safe, secure, and confidential";
+"MENTAL_CARE" = "No health without mental health";
+"THERE_IS_HOPE" = "A state of good mental health enables people to realise their own potential, to cope with stress, to work productively and fruitfully and to contribute to their communities";
+"HEALTH_CARE" = "Progress, Not Perfection";
+"IT_IS_EXERCISE_ALONE" = "Sometimes the smallest step in the right direction ends up being the biggest step of your life";
+"STRESS_RELAXATION" = "Today";
+"IF_YOU_WANT_TO_CONQUER" = "I will not stress over things I can't control";
+
+/* LoginScreen */
+"COMPLETE_NOW" = "Complete Now";
+"WELCOME_TO" = "Welcome to";
+"TELEHEALTH" = "Juthoor";
+"LOG_IN" = "Log in";
+"FORGOT_PASSWORD" = "Forgot password?";
+"OR_CONTINUE" = "Or continue with";
+"DONT_HAVE_AN_ACCOUNT" = "Don’t have an account?";
+"SIGN_UP" = "Sign up";
+"EMAIL" = "Email";
+"PASSWORD" = "Password";
+"IF_YOU_ARE_IN_EMERGENCY" = "If you are in an emergency or a life threatening situation, please don’t use this app and call emergency services";
+"AUDIO_VIDEO_CONSULTATION_PRICE" = "Consultation Price per 50 Minutes Voice/Video Session";
+"CHAT_CONSULTATION_PRICE" = "Consultation Price per 30 Minutes Chat Messages Session";
+"PLEASE_CONTACT_ADMIN_MSG" = "Please contact admin@juthoor.co to input your session price.";
+"CHAT_MESSAGE" = "Chat Message";
+"ZERO_YEAR_30" = "0 Year - 30+ Years";
+"YEAR_FILTER" = "Year";
+"YEARS_FILTER" = "Years";
+"MIN_KD" = "Min KD";
+"MAX_KD" = "Max KD";
+"ALL" = "All";
+"WANT_TO_DISCARD_YOUR_CHANGE" = "Do you want to discard your changes?";
+"MODIFY_MSAG" = "You modified some filters. What would you like to do with these changes?";
+"DISCARD" = "Discard";
+
+"PUSH_NOTIFICATION_PERMISSION" = "Juthoor Would Like To Send You Notifications";
+"PUSH_MESSAGE" = "Seems like you have not allowed push notification permission to Juthoor App. Please go to settings and allow permission to ensure that you are reminded and kept up to date of all important notifications, reminders, and alerts.";
+
+/* SignUpScreen */
+"ALREADY_HAVE_ACCOUNT" = "Already have an account?";
+"USERNAME" = "Username (Nickname)";
+"AGREE_TERMS_POLICY" = "I agree to the Terms & Conditions and Privacy Policy";
+"CONFIRM_PASSWORD"  = "Confirm Password";
+"TERMSANDCONDITION" = "terms&condition";
+"TERMS&CONDITION" = "Terms & Conditions";
+"PRIVACY" = "Privacy";
+"SESSION_EXPIRED" = "user session expired";
+/* ForgotPassword Screen */
+"FORGOT_PASSWORD" = "Forgot password?";
+"ENTER_EMAIL" = "Enter the email address associated with your account.";
+"WE_WILL_EMAIL" = "We will email you a link to reset your password.";
+"SEND_EMAIl" = "Send email";
+"ENTER_DOCUMENAT_TITLE" = "Please enter document title";
+/* verificationEmail Screen */
+"VERIFICATION_EMAIL" = "Verification email sent";
+"WE_JUST_SENT" = "We just sent you a verification to";
+"PLEASE_FOLLOW_THE" = "Please follow the instruction in the Email to continue.";
+"RESEND_EMAIL" = "Resend email";
+
+/* QuestionScreen */
+"NEXT" = "Next";
+"BEFOR_WE_GET" = "All information is confidential and secured and will be shared with the provider only.";
+"WHAT_TYPE_OF" = "What type of counselling are you looking for?";
+"INDIVIDUAL_COUNSELLING" = "Individual counselling";
+"COUPLE_COUNSELLING"  = "Couple counselling";
+"TEEN_COUNSELLING" = "Family counselling";
+"WHAT_IS_YOUR_GENDER" = "What is your gender?";
+"MALE" = "Male";
+"APPLAY" = "Apply";
+"FEMALE" = "Female";
+"WHAT_IS_YOUR" = "What is your relationship status?";
+"MARRIED" = "Married";
+"UN_MARRIED" = "Unmarried";
+"HAVE_YOU_EVER" = "Have you ever been in counselling before?";
+"YES" = "Yes";
+"LATER" = "Later";
+"NO" = "No";
+"COUNTINUE" = "Continue";
+"OKAY" = "Okay";
+"CONTACT_ADMIN_MESSAGE" = "Please contact admin@juthoor.co to input your session price.";
+"CHANGE_COUNTRY" = "Change Country";
+"UPDATE_WEEKLY_SESSION_SCHEDULE" = "Update Weekly Session Schedule";
+/* MyProfileScreen */
+"MY_ACCOUNT" = "My Account";
+"LANGUAGE" = "Language";
+"CHANGE_PASSWORD" = "Change passcode";
+"MANAGE_NOTIFICATIONS" = "Manage Notifications";
+"APP_SECURITY" = "App Security";
+"CHATS" = "Chats";
+"FORM_POSTS" = "Forum Posts";
+"PAYMENT_SETTING" = "Payment Setting";
+"LOG_OUT" = "Log out";
+"PAY" = "Pay";
+"UPDATE_INFORMATIONS" = "Update Information";
+"UPDATE_AVAIBLITY_TO_CALENDAR" = "Update Availability To My Calendar";
+/* My ProfileDetailScreen */
+"UPDATE_PROFILE_PHOTO" = "Update Profile Photo";
+"USER_NAME_NICK_NAME" = "Username (Nickname)";
+"EMAIL" = "Email";
+"DELETE_MY_ACCOUNT" = "Delete My Account";
+"CHANGE_PASSWORD" = "Change Password";
+"CURRENT_PASSWORD" = "Current Password";
+"NEW_PASSWORD" = "New Password";
+"CONFIRM_NEW_PASSWORD" = "Confirm New Password";
+"GALLERY" = "Gallery";
+"DOCUMENT" = "Document";
+
+/* PinScreen */
+"CREATE_A_NEW_PIN" = "Create a new pin";
+"ENTER_YOUR_PIN"  = "Enter your pin";
+"ENTER_CURRENT_PIN"  = "Enter current pin";
+"LOGOUT" = "Logout";
+"ARE_YOU_SURE_MSG" = "Are you sure you want to logout?";
+"IF_YOU_WANT_TO_LOGOUT" = "If you want to set a new pin you have to logout. Are you sure you want to log out?";
+"CONFIRM_NEW_PIN" = "Confirm a new pin";
+"FORGOT_PIN_SET_NEW_PIN" = "Forgot pin? Set again.";
+/*Psychologist Signup*/
+"CHOOSE_YOUR_COUNTRY" = "Choose your country";
+"FIRST_NAME" = "First name";
+"LAST_NAME" =  "Last name";
+"COUNTRY"   =   "Country";
+"CODE"  =   "Code";
+"MOBILE_NUMBER" = "Mobile number";
+"LICENSE_NUMBER" = "License number";
+"CERTIFICATE" = "Certificate(s) & CV";
+"TITLE_OF_DOCUMENT" = "Title of document";
+"FIND_COUNTRY" = "Find country….";
+"UPDATE_CV_MESSAGE" = "Please contact support team to update
+your certificates and CV.";
+/* PsychologistsHomeScreen */
+ "SESSIONS_FOR_TODAY" = "Sessions for today";
+"BOOKED_SESSIONS" = "Upcoming appointments";
+"UPDATE_AVAILABILITY" = "Update availability";
+"OUR_BLOGS"="Our Blogs";
+"SEE_ALL" = "See all";
+"OK" = "Ok";
+"MESSAGES" = "Messages";
+"EDIT" = "Edit";
+"CONFIRMATION" = "Confirmation";
+"CONFIRMED" = "Confirmed";
+"VERIFY_APPOINTMENT_MESSAGE" = "Please verify that you selected the right date, time, and communication medium (chat, audio, or video) prior to confirming your appointment. Once the appointment is confirmed, you will not be able to edit. To edit, please send an email to contact@juthoor.co to support you with changing your appointment details.";
+/* Error Messages */
+"OLD_PASS_NEW_PASS_MUST_BE_SAME" = "New password and confirm password must be same";
+"PLEASE_ENTER_CONFIRM_PASSWORD" = "Please confirm password";
+"PLEASE_ENTER_ABOUT_ME_INFORMATION" = "Please enter aboutme information";
+"PLEASE_SELECT_AT_LEAST_ONE_SPECIALITY" = "Please select at-least one speciality";
+"SELECT_AT_LEAST_ONE_SERVICE" = "Please select at-least one service";
+
+"ENTER_EXPERINCE" = "Please enter your experince";
+"ENTER_EDUCATION" = "Please enter your education";
+"SELECT_YOUR_GENDER" = "Please select your gender";
+"SELECT_AT_LEAST_ONE_LANGAUGE" = "please select at-least one language";
+"PLEASE_ENTER_NEW_PASSWORD" = "Please enter your new password";
+"PLEASE_ENTER_YOUR_REASON" = "Please enter your reason";
+"PLEASE_ENTER_CURRENT_PASSWORD" = "Please enter your current password";
+"PLEASE_SELECT_TIME" = "Please select time";
+"ENTER_YOUR_EMAIL" = "Please enter your email";
+"ENTER_VALID_MAIL" = "Please enter a valid email";
+"ENTER_PASSWORD" = "Please enter a password";
+"ENTER_USERNAME" = "Please enter your username";
+"ACCCEPT_AGREEMENT" = "Please accept the agreement";
+"ENTER_FIRSTNAME" = "Please enter your first name";
+"ENTER_LASTNAME" = "Please enter your last name";
+"SELECT_COUNTRY"  = "Please select your country";
+"ENTER_MOBILE_NUMBER" = "Please enter your mobile number";
+"ENTER_LICENCE_NUMBER" = "Please enter your license number";
+"SELECT_ONE_DOCUMENT_ATLEAST" = "Please select at-least one document";
+"ENTER_CONFIRM_PASSWORD" = "Please confirm password";
+"PASSWORD&CONFIRM_PASSWORD_MUST" = "Password & Confirm Password must be same";
+"YOU_CAN_UPLOAD_UP_TO_10" = "you can add upto 10 documents";
+"YOUR_SESSIONS" = "Your Session";
+"YOUR_SESSION" = "Your Sessions";
+"APPINTMENT_TYPE_MISSMATCH" = "Hello! Your request has to match the same appointment type";
+"SELET_SLOAT_WITH_MINIMUM_ONE_HOUR_GAP" = "You have to select the slots with minimum 1 hour difference in between.";
+"WE_WILL_SENT_EMAIL" = "";
+"SKIP" = "Skip";
+"PENDINGS" = "Pending";
+"PRICE" = "Price:";
+"PRICE_WITHOUT_COLON" = "Price";
+"PAY_CONFIRM" = "Pay & Confirm";
+"PRICE_MUST_BE_GREATER" = "Price must be greater than 0";
+"PLEASE_ENTER_PRICE" =  "Please Enter Price";
+"FREE" = "Free";
+"PLEASE_ANSWER_WHATEVER_IS_COMFRTABLE" = "Please answer whatever you feel comfortable with. Answers will only be seen by your therapist and will help them understand your needs better (or skip!)";
+"PLEASE_SELECT_DOCUMENT" = "Please select document";
+"NOT_ALLOWED" = "Not Allowed";
+"EMAIL_RESENT" = "Email resent";
+"PAID" = "Paid";
+"NOTIFICATION" = "Notification";
+"RATE_THIS_COLLECTION" = "Rate this Consultation";
+"FEEDBACK" = "Feedback";
+"SUBMIT" = "Submit";
+"JOINING" = "Joining..";
+"CAMERA_AND_MICROPHONE_OFF" = "camera and microphone off";
+"CAMERA_OFF" = "camera off";
+"MUTED_THIS_CALL" = "muted this call";
+"CHAT_IS_DEACTIVATED" = "Chat is deactivated";
+"REVIEWING" = "Reviewing";
+"WE_ARE_CURRENTLY_REVIEWING_MSG" = "We are currently reviewing your documents and will update you by email for further processing of your application";
+"JOIN_AUDIO_CALL" = "Join Audio Call";
+"JOIN_VIDEO_CALL" = "Join Video Call";
+"AUDIO_CALL" = "Audio Call";
+"START_AUDIO_CALL" = "Start Audio Call";
+"START_VIDEO_CALL" = "Start Video Call";
+"VIDEO_CALL" = "Video Call";
+"GIVE_RATINGS" = "Give Ratings";
+"BOOK_NEW_CONSULTATION" = "Book New Consultation";
+"SESSION_TIME_NOT_STARTED" = "Your session time is not started yet";
+/* User Home Screen */
+"HOME" = "Home";
+"APPOINTMENTS" = "Appointments";
+"MY_PROFILE" = "My Profile";
+"SEARCH_FOR_SOME_ONE" = "Search for someone";
+
+"LANGUAGE" = "Language";
+"PLEASE_COMMUNICATION_MEDIUM" = "Please select communication medium";
+"REASON_OF_CANCELATION" = "Reason of Cancellation";
+"CANCEL" = "Cancel";
+"WELL_DONE" = "Well done!";
+"GOT_IT" = "Got it!";
+"BOOK_YOUR_SESSION" = "Book Your Session";
+"WOULD_YOU_LIKE_TO_BOOK" = "Would you like to book a consultation?";
+"PAYMENT_FAILURE" = "Payment failure!";
+"TRY_AGIAN" = "Try again!";
+"REQUEST" = "Initial Consultation Request(s)";
+"REQUEST_INITAL_CONSULTATION" = "Request Initial Consultation";
+"REQUEST_INITIAL_SESSION" = "Request Initial Session";
+"UPDATE_REQUIRED" = "Update Required";
+"NEW_UPDATE_MSG" = "A new update is required to continue using the app. We have improved the app with better user experience, including fixes required.";
+"UPCOMMING_SESSION" = "Upcoming Session";
+"UPCOMMING_SESSIONS" = "Upcoming Sessions";
+"NO_REQUEST_AVAILBLE" = "No requests are available";
+"CONTINUE_AS"="Continue as";
+"ALREADY_VERIFIED_EMAIL" = "if you already verified your email then please click here";
+"UPCOMING" = "Upcoming";
+"PAST" = "Past";
+"INDIVIDUALS" = "Individual";
+"COUPLE" = "Couple";
+"CONSULTATION_WITH" = "Consultation With";
+"DATE" = "Date";
+"TIME" = "Time";
+"TYPES_OF_SESSIONS" = "Type of Session";
+"COMMUNICATION_MEDIUM" = "Communication Medium";
+"SELECT_COMMUNICATION_MEDIUM" = "Select Communication Medium";
+"PLEASE_SELECT_AGE" = "Age Selection";
+"TOTAL_PAYMENT"  = "Total Payment";
+"FAMILY" = "Family";
+"MINUTES" = "Minutes";
+"SERVICE_NOT_AVAILBLE_FAMILY_COUPLE" = "Chat service is not available for couple & family consultation";
+"SERVICE_NOT_PROVIDED" = "This service is not provided by the therapist";
+"SELECT_THE_TYPE_OF_SESSION" = "Please select type of session";
+"SERVICE_OFFERING" = "Services Offering";
+"MY_SESSIONS" = "My Sessions";
+"MY_SESSION" = "My Session";
+"SEE_ALL"   =   "See all";
+"SPECIALITY" = "Speciality";
+"AVAILABEL_PSYCHOLOGISTS" = "Available Therapists";
+"OUR_BLOGS" = "Our Blogs";
+"READ" = "read";
+"COMPLETED" = "completed";
+
+"GOOD_MORNING" = "Good Morning";
+"GOOD_AFTERNOON" = "Good Afternoon";
+"GOOD_EVENING" = "Good Evening";
+"GOOD_NIGHT" = "Good Night";
+"PSYCHOLOGISTS" = "Therapists";
+"NO_RESULT" = "No Results";
+"NO_PSYCHOLOGISTS_AVAILABLE_MESSAGE" = "Sorry, no results match your search. please try another criteria.";
+"CLIENTS" = "Client";
+"THERAPIST" = "Therapist";
+/* PsychologistSelfScreen */
+"COVID_19_FREE_SUPPORT" = "COVID-19 Free Support";
+"UNAVAILABLE" = "Unavailable";
+"SERVICE_OFFERED" = "Services Offered";
+"CHAT_SESSION" = "Chat Session";
+"AUDIO_VIDEO_SESSION" = "Audio/Video Session";
+"LET_GET_YOUR" = "Information provided in this section should be accurate, simple to read, welcoming, and friendly for clients to know more about you.";
+"ABOUT_ME"= "About Me";
+"FUN_FACT" = "Sliding Scale";
+"GENDER" = "Gender";
+"ALSO_EXPERIENCED"= "Also Experienced in";
+"YEAR_OF_EXPERIENCE" = "Years of Experience";
+"SELECTED_YEARS_OF_EXPERINCE" = "Selected Years of Experience";
+"YEARS" = "Years";
+"EXP" = "Experience";
+"EDUCATION" = "Education";
+"LANGUAGE" = "Languages";
+"SEARCH_LANGUAGE" = "Search Languages";
+"CONSULTATION_PRICE" = "Consultation Price Per 50 Minutes";
+"CONSULTANT_PRICE" = "Consultation Price";
+"ALL" = "All";
+"FOR_INDIVIDUAL" = "For Individual";
+"FOR_COUPLE" = "For Couple";
+"FOR_FAMILY" = "For Family";
+"THERAPIST_DETAILS" = "Therapist Details";
+"REFUND_MESSAGE" = "Please email us at customercare@juthoor.co. Your refund will be processed in 3 to 4 working days";
+"BOOK_NOW" = "Book now";
+"BOOK_SESSION" = "Book Session";
+"CHAT" = "Chat";
+"AUDIO" = "Audio";
+"VIDEO" = "Video";
+"CONFIRM_YOUR_SESSION" = "Confirm Your Session";
+"BOOK" = "Book";
+"FILTER" = "Filter";
+"CLEAR_ALL" = "Clear All";
+"SEARCH_NAME" = "Search Name…";
+"VIDEO/AUDIO" = "Video/Audio";
+"NO_SLOTS_AVAILABLE" = "No slots are available? Please request an initial consultation or send us an email at contact@juthoor.co to help you!";
+"PERMISSION_REQUIRED" = "Permission Required";
+"ALLOW_PERMISSION_MSG" = "You are required to allow permission to access your device camera and microphone for attending the session. Please goto settings and allow these permissions to Juthoor.";
+"GOTO_SETTINGS" = "Goto Settings";
+/* AvailableSessionScreen */
+"UPDATE" = "Update";
+"RESCHEDULE" = "Reschedule";
+"CANCEL_SESSION" = "Cancel Session";
+"AVAILABLE_SESSIONS" = "Available Sessions";
+"SELECT_DATE_TIME" = "Select Date and Time";
+"TAP_ON_THE_TIME_SLOT_TWICE" = "Tap on the time slot twice to change session type";
+"SAVE" = "Save";
+"PLEASE_ADD_YOUR_AVAILABLE" = "Please add your available session timings";
+"SELECT_SESSIONS" = "Select Sessions";
+"YOU_CAN_CHOOSE_YOUR_TIMINGS" = "You can choose your timings by clicking on particular days.";
+"EVERY_SESSION_WILL" = "Every session will be 50 Minutes.";
+"DONE" = "Done";
+"CHAT_DEACTIVATED" = "This patient won't be able to text you back if you deactivate this chat thread. Are you sure you want deactivate it?";
+"DEACTIVATE" = "Deactivate";
+"CHAT_ACTIVATE_MSG" = "The patient will be able to text you back if you activate this chat thread again. Are you sure you want activate it?";
+"TYPING" = "Typing...";
+"ONLINE" = "Online";
+"OFFLINE" = "Offline";
+"NOT_EDITABLE" = "(not editable)";
+/* About Home Screen */
+
+"INDIVIDUAL_FREE_CONSULTATION" = "Individual (Free Initial Consultation)";
+"COUPLE_FREE_CONSULTATION" = "Couple (Free Initial Consultation)";
+"FAMILY_FREE_CONSULTATION" = "Family (Free Initial Consultation)";
+
+"ABOUT_JUTHOOR" = "About Juthoor";
+"FAQ" = "FAQ";
+"ABOUT_US" = "About Us";
+"TERMS_AND_CONDITION" = "Terms & Conditions";
+"PRIVACY_POLICY" = "Privacy Policy";
+"DELETE_MY_ACCOUNT" = "Delete My Account";
+"SELECT_TYPE_OF_SESSION" = "Select Session Type";
+"BOOK_CONSULTATION" = "Book Consultation";
+"NO_SESSION_TODAY" = "There is no session today";
+"OF" = "of";
+"CANCELLED_SESSION" = "Canceled Session";
+"ACTIVATE" = "Activate";
+"IMAGE_SELECTION" = "Image Selection";
+"WHERE_YOU_WANT_PIC" = "From where you want to pick this image?";
+"CAMERA" = "Camera";
+"PHOTO_ALBUM" = "Photo Album";
+"PLEASE_EMAIL_US_TO_DELETE_ACCOUNT" = "Please email “contact@juthoor.co” to delete your email account.";
+"DELETE_ACCOUNT" = "Are you sure you want to
+delete your account, You will
+lose all your data.";
+"DELETE" = "Delete";

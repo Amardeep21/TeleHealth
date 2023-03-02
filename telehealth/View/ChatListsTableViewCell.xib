@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Bold.otf">
+            <string>Quicksand-Bold</string>
+        </array>
+        <array key="Quicksand-Medium.ttf">
+            <string>Quicksand-Medium</string>
+        </array>
+        <array key="Quicksand-Regular.otf">
+            <string>Quicksand-Regular</string>
+        </array>
+        <array key="TimesNewRoman.ttf">
+            <string>.SFUI-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatsListCell" rowHeight="75" id="KGk-i7-Jjw" customClass="ChatListsTableViewCell" customModule="Juthoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_holder_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ia1-Dr-NvS" customClass="dateSportImageView" customModule="Juthoor" customModuleProvider="target">
+                        <rect key="frame" x="20" y="15" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="DxI-ZC-yVR"/>
+                            <constraint firstAttribute="width" constant="45" id="rJC-C7-TE9"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="9"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MwP-FB-hAu" customClass="dateSportLabel" customModule="Juthoor" customModuleProvider="target">
+                        <rect key="frame" x="49" y="40" width="16" height="16"/>
+                        <color key="backgroundColor" red="0.0" green="0.81568627449999997" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="Auw-0E-gMI"/>
+                            <constraint firstAttribute="width" constant="16" id="XRF-Q2-93F"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="9"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovA-XT-Isv">
+                        <rect key="frame" x="304" y="15" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="10"/>
+                        <color key="textColor" red="0.57527381180000003" green="0.60650658609999997" blue="0.68542242050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sx9-nE-hCy">
+                        <rect key="frame" x="81" y="15" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.63529411759999999" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kee-gX-mwW">
+                        <rect key="frame" x="81" y="21" width="199" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="12"/>
+                        <color key="textColor" red="0.0078431372550000003" green="0.031372549020000001" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pae-fl-wEw" customClass="dateSportLabel" customModule="Juthoor" customModuleProvider="target">
+                        <rect key="frame" x="296" y="13" width="16" height="16"/>
+                        <color key="backgroundColor" red="0.0" green="0.63529411759999999" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="8fv-EZ-lkI"/>
+                            <constraint firstAttribute="width" constant="16" id="m9d-4r-THy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="MwP-FB-hAu" firstAttribute="bottom" secondItem="Ia1-Dr-NvS" secondAttribute="bottom" constant="-4" id="DCJ-JT-KVs"/>
+                    <constraint firstItem="Ia1-Dr-NvS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="F7F-WL-GL7"/>
+                    <constraint firstItem="ovA-XT-Isv" firstAttribute="centerY" secondItem="Sx9-nE-hCy" secondAttribute="centerY" id="HUx-R3-vnB"/>
+                    <constraint firstItem="Kee-gX-mwW" firstAttribute="top" secondItem="Sx9-nE-hCy" secondAttribute="bottom" constant="6" id="MY0-ZW-lbM"/>
+                    <constraint firstItem="ovA-XT-Isv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Sx9-nE-hCy" secondAttribute="trailing" constant="5" id="Nml-fk-4Vg"/>
+                    <constraint firstItem="Sx9-nE-hCy" firstAttribute="top" secondItem="Ia1-Dr-NvS" secondAttribute="top" id="Osa-ei-V7Y"/>
+                    <constraint firstItem="Sx9-nE-hCy" firstAttribute="leading" secondItem="Ia1-Dr-NvS" secondAttribute="trailing" constant="16" id="PXI-bS-Bf7"/>
+                    <constraint firstItem="Ia1-Dr-NvS" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="UJc-7Z-XVf"/>
+                    <constraint firstItem="Pae-fl-wEw" firstAttribute="centerX" secondItem="ovA-XT-Isv" secondAttribute="centerX" id="WMs-5B-IX6"/>
+                    <constraint firstItem="Kee-gX-mwW" firstAttribute="leading" secondItem="Sx9-nE-hCy" secondAttribute="leading" id="Yyu-gS-82r"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Kee-gX-mwW" secondAttribute="bottom" constant="4" id="b3V-YX-e7F"/>
+                    <constraint firstItem="Pae-fl-wEw" firstAttribute="leading" secondItem="Kee-gX-mwW" secondAttribute="trailing" constant="16" id="tvh-oq-dQl"/>
+                    <constraint firstItem="MwP-FB-hAu" firstAttribute="trailing" secondItem="Ia1-Dr-NvS" secondAttribute="trailing" id="vIn-yC-69G"/>
+                    <constraint firstItem="Pae-fl-wEw" firstAttribute="centerY" secondItem="Kee-gX-mwW" secondAttribute="centerY" id="xpD-zT-Wo4"/>
+                    <constraint firstAttribute="trailing" secondItem="ovA-XT-Isv" secondAttribute="trailing" constant="16" id="zNN-PB-vPO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="131.8840579710145" y="88.727678571428569"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="Ia1-Dr-NvS">
+            <size key="intrinsicContentSize" width="270" height="270"/>
+        </designable>
+        <designable name="MwP-FB-hAu"/>
+        <designable name="Pae-fl-wEw">
+            <size key="intrinsicContentSize" width="11.5" height="12"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="place_holder_image.png" width="270" height="270"/>
+    </resources>
+</document>

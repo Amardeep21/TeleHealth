@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-SemiBold.ttf">
+            <string>Quicksand-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SpecialityCell" id="gTV-IL-0wX" customClass="SpecialityCollectionViewCell" customModule="Juthoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="158" height="162"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="158" height="162"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4l4-AH-79r" customClass="dateSportView" customModule="Juthoor" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="8" width="154" height="154"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N29-i4-Jzd">
+                                <rect key="frame" x="8" y="93.5" width="138" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Quicksand-SemiBold" family="Quicksand" pointSize="14"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AlI-bX-K6B">
+                                <rect key="frame" x="16.5" y="4" width="121" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="lEZ-mz-kXU"/>
+                                    <constraint firstAttribute="width" constant="121" id="ucM-rm-cQe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="N29-i4-Jzd" secondAttribute="bottom" constant="4" id="HIj-6F-E8S"/>
+                            <constraint firstItem="AlI-bX-K6B" firstAttribute="centerX" secondItem="4l4-AH-79r" secondAttribute="centerX" id="P0T-4Q-coD"/>
+                            <constraint firstAttribute="trailing" secondItem="N29-i4-Jzd" secondAttribute="trailing" constant="8" id="PZ4-xp-MtU"/>
+                            <constraint firstItem="N29-i4-Jzd" firstAttribute="leading" secondItem="4l4-AH-79r" secondAttribute="leading" constant="8" id="SDn-GM-cDB"/>
+                            <constraint firstItem="N29-i4-Jzd" firstAttribute="top" secondItem="AlI-bX-K6B" secondAttribute="bottom" constant="14.5" id="ZiJ-Op-Nxm"/>
+                            <constraint firstItem="AlI-bX-K6B" firstAttribute="top" secondItem="4l4-AH-79r" secondAttribute="top" constant="4" id="qZE-CD-3Aj"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="4l4-AH-79r" secondAttribute="bottom" id="5NV-na-RQZ"/>
+                <constraint firstAttribute="trailing" secondItem="4l4-AH-79r" secondAttribute="trailing" constant="4" id="ILC-7z-8Ik"/>
+                <constraint firstItem="4l4-AH-79r" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Q3e-Ba-0o6"/>
+                <constraint firstItem="4l4-AH-79r" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="Vmf-69-V0X"/>
+            </constraints>
+            <size key="customSize" width="158" height="162"/>
+            <connections>
+                <outlet property="specialityImageView" destination="AlI-bX-K6B" id="HlJ-Ga-80j"/>
+                <outlet property="specialityTitle" destination="N29-i4-Jzd" id="ZUI-ev-WRl"/>
+            </connections>
+            <point key="canvasLocation" x="128.98550724637681" y="111.16071428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

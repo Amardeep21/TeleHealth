@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--On Boarding Screen-->
+        <scene sceneID="TWh-pK-gOV">
+            <objects>
+                <viewController storyboardIdentifier="OnBoardingScreen" id="Hzv-4M-o9K" customClass="OnBoardingScreen" customModule="Juthoor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jDY-cv-Obu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_gradient_color.png" translatesAutoresizingMaskIntoConstraints="NO" id="blc-NH-g1d">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="OxE-ko-OFG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="h6t-Jy-gBQ">
+                                    <size key="itemSize" width="408" height="701"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Hzv-4M-o9K" id="jQw-eB-bwY"/>
+                                    <outlet property="delegate" destination="Hzv-4M-o9K" id="pyu-Wn-7PJ"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcz-Ba-y9K" customClass="dateSportButton" customModule="Juthoor" customModuleProvider="target">
+                                <rect key="frame" x="334" y="782" width="56" height="56"/>
+                                <color key="backgroundColor" red="0.23137254901960785" green="0.33725490196078434" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="H3t-LP-7Le"/>
+                                    <constraint firstAttribute="width" constant="56" id="ObS-bl-LhR"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="17" minY="13" maxX="15" maxY="13"/>
+                                <state key="normal" image="next.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="28"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onNext:" destination="Hzv-4M-o9K" eventType="touchUpInside" id="eZa-ws-Ecg"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="page_dot_first_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="kiq-iu-Z5Z">
+                                <rect key="frame" x="24" y="807" width="60" height="6"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="iow-WY-wG7"/>
+                                    <constraint firstAttribute="height" constant="6" id="r8H-2c-ck1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PFa-Gb-V1x"/>
+                        <color key="backgroundColor" red="1" green="0.93333333333333335" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="PFa-Gb-V1x" firstAttribute="trailing" secondItem="hcz-Ba-y9K" secondAttribute="trailing" constant="24" id="4Uo-De-hgJ"/>
+                            <constraint firstItem="OxE-ko-OFG" firstAttribute="leading" secondItem="jDY-cv-Obu" secondAttribute="leading" id="LSO-Dc-vLH"/>
+                            <constraint firstItem="PFa-Gb-V1x" firstAttribute="trailing" secondItem="blc-NH-g1d" secondAttribute="trailing" id="MyJ-vK-FC3"/>
+                            <constraint firstAttribute="bottom" secondItem="blc-NH-g1d" secondAttribute="bottom" id="N2g-Pg-SLu"/>
+                            <constraint firstItem="PFa-Gb-V1x" firstAttribute="bottom" secondItem="hcz-Ba-y9K" secondAttribute="bottom" constant="24" id="R7F-bo-XeS"/>
+                            <constraint firstItem="blc-NH-g1d" firstAttribute="leading" secondItem="PFa-Gb-V1x" secondAttribute="leading" id="W9x-dq-9Bf"/>
+                            <constraint firstAttribute="bottom" secondItem="OxE-ko-OFG" secondAttribute="bottom" id="Wfk-UA-nyW"/>
+                            <constraint firstItem="OxE-ko-OFG" firstAttribute="top" secondItem="jDY-cv-Obu" secondAttribute="top" id="Xcx-9M-ACC"/>
+                            <constraint firstItem="blc-NH-g1d" firstAttribute="top" secondItem="jDY-cv-Obu" secondAttribute="top" id="jrx-EO-Fpw"/>
+                            <constraint firstItem="kiq-iu-Z5Z" firstAttribute="leading" secondItem="PFa-Gb-V1x" secondAttribute="leading" constant="24" id="kIW-FB-Dkk"/>
+                            <constraint firstAttribute="trailing" secondItem="OxE-ko-OFG" secondAttribute="trailing" id="rJI-l8-yZN"/>
+                            <constraint firstItem="kiq-iu-Z5Z" firstAttribute="centerY" secondItem="hcz-Ba-y9K" secondAttribute="centerY" id="yPm-6a-apS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nextButton" destination="hcz-Ba-y9K" id="ckQ-75-Hgz"/>
+                        <outlet property="onBoardingCollectionView" destination="OxE-ko-OFG" id="DpK-6d-wpv"/>
+                        <outlet property="pageDotImageView" destination="kiq-iu-Z5Z" id="foE-Qb-nwj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4YP-HI-rAn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="170.07042253521126"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="hcz-Ba-y9K">
+            <size key="intrinsicContentSize" width="86" height="97"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="back_gradient_color.png" width="1125" height="2436"/>
+        <image name="next.png" width="54" height="71"/>
+        <image name="page_dot_first_icon.png" width="162" height="18"/>
+    </resources>
+</document>

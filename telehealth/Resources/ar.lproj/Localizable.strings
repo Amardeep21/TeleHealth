@@ -1,0 +1,398 @@
+
+/*
+  Localizable.strings
+  telehealth
+
+  Created by iroid on 30/07/20.
+  Copyright © 2020 iroid. All rights reserved.
+*/
+
+
+
+/* OnBoardingScreen */
+"WE_CARE_FOR_YOU" = "الصحة النفسية مهمة";
+"YOU_CAN_DO_GREAT" = "أصبح التواصل مع أحد خبراء الصحة النفسية أكثر أماناً وسرية من ذي قبل";
+"MENTAL_CARE" = "لا تكتمل الصحة بدون الصحة النفسية";
+"THERE_IS_HOPE" = "تمكّن حالة الصحة العقلية الجيدة الناس من تحقيق فرصهم، والتعامل مع الإجهاد، والعمل بشكل منتج ومثمر، والمساهمة في مجتمعاتهم";
+"HEALTH_CARE" = "التقدم وليس الكمال";
+"IT_IS_EXERCISE_ALONE" = "في بعض الأحيان قد تكون الخطوة الصغيرة في الاتجاه الصحيح هي أهم خطوة في حياتك";
+"STRESS_RELAXATION" = "اليوم";
+"IF_YOU_WANT_TO_CONQUER" = "لن أقلق بشأن الأشياء التي لا أستطيع السيطرة عليها";
+
+/* LoginScreen */
+"WELCOME_TO" = "مرحبا بكم في";
+"TELEHEALTH" = "جذور";
+"LOG_IN" = "تسجيل الدخول";
+"FORGOT_PASSWORD" = "هل نسيت كلمة المرور؟";
+"OR_CONTINUE" = "أو الاستمرار مع";
+"DONT_HAVE_AN_ACCOUNT" = "ليس لديك حساب؟";
+"SIGN_UP" = "مستخدم جديد";
+"EMAIL" = "البريد الالكتروني";
+"PASSWORD" = "كلمة المرور";
+"IF_YOU_ARE_IN_EMERGENCY" = "في حال تعرضك لأي حالة طارئة، لطفا لا تستخدم هذا التطبيق واتصل بالرقم ١١٢";
+"DATE" = "التاريخ";
+"TIME" = "التوقيت";
+"COMPLETED" = "مكتمل";
+"AVAILABLE_SESSIONS" = "الجلسات المتاحة";
+"TAP_ON_THE_TIME_SLOT_TWICE" = "اضغط مرتين على الفترة الزمنية لتغيير نوع الجلسة";
+"RESCHEDULE" = "إعادة تعيين الموعد";
+"SELECT_DATE_TIME" = "حدد التاريخ والوقت";
+"APPINTMENT_TYPE_MISSMATCH" = "مرحبا! يجب أن يتطابق طلبك مع نوع الموعد";
+"TYPES_OF_SESSIONS" = "نوع الجلسة";
+"COMMUNICATION_MEDIUM" = "وسيلة الاتصال";
+"SELECT_COMMUNICATION_MEDIUM" = "حدد نوع الجلسة";
+"TOTAL_PAYMENT"  = "إجمالي المبلغ المدفوع";
+"YOUR_SESSIONS" = "جلستك";
+"MY_SESSION" = "جلساتي";
+"SKIP" = "تخطي";
+"YOUR_SESSION" = "جلستك";
+"NOT_ALLOWED" = "غير مسموح";
+"SELET_SLOAT_WITH_MINIMUM_ONE_HOUR_GAP" = "يجب عليك تحديد الفترات الزمنية بفارق ساعة واحدة على الأقل بين كل فترتين.";
+"REASON_OF_CANCELATION" = "أسباب الإلغاء";
+"CONFIRM_YOUR_SESSION" = "قم بتأكيد جلستك";
+"CANCEL_SESSION" = "إلغاء الجلسة";
+"DOCUMENT" = "مستند";
+"ENTER_DOCUMENAT_TITLE" = "الرجاء إدخال عنوان الوثيقة";
+"PLEASE_ANSWER_WHATEVER_IS_COMFRTABLE" = "نرجو منك تحديد الخيار الذي تراه مناسبا لك. لن يرى هذه الإجابات سوى معالجك، وسوف تساعده إجابتك عن هذه الأسئلة على فهم احتياجاتك بشكل أفضل (أو يمكنك تجاهل الإجابة عن هذه الأسئلة!)";
+"BOOK" = "حجز";
+"BOOK_SESSION" = "احجز جلستك";
+"NOTIFICATION" = "الإشعارات";
+"RATE_THIS_COLLECTION" = "قيِّم هذه الاستشارة";
+"FEEDBACK" = "ردود الفعل";
+"CANCEL" = "إلغاء";
+"PLEASE_SELECT_AGE" = "تحديد العمر";
+"CONFIRMED" = "تأكيد";
+"EDIT" = "تعديل";
+"CONFIRMATION" = "تأكيد";
+"VERIFY_APPOINTMENT_MESSAGE" = "يرجى التحقق من أنك حددت التاريخ والوقت ووسيلة الاتصال الصحيحة (المحادثة النصية أو الصوت أو الفيديو) قبل تأكيد موعدك.  بمجرد تأكيد الموعد، لن تتمكن من التعديل.  للتعديل، يرجى إرسال بريد إلكتروني إلى contact@juthoor.co لدعمك في تغيير تفاصيل موعدك.";
+
+"PUSH_NOTIFICATION_PERMISSION" = "الموافقة على ارسال الاشعارات";
+"PUSH_MESSAGE" = "الرجاء التأكد من انه تم السماح بتفعيل الاشعارات المتعلقة بتطبيق جذور من خلال الإعدادات. يرجى الذهاب للإعدادات والتأكيد لكي تتمكن من استلام جميع الاشعارات المهمة.";
+
+"YEAR_FILTER" = "سنة";
+"YEARS_FILTER" = "سنوات";
+
+/* SignUpScreen */
+"ALREADY_HAVE_ACCOUNT" = "لديك حساب الان؟";
+"USERNAME" = "اسم المستخدم";
+"AGREE_TERMS_POLICY" = "أوافق على شروط الاستخدام وسياسة الخصوصية";
+"CONFIRM_PASSWORD"  = "تأكيد كلمة المرور";
+
+"UPCOMING" = "القادمة";
+"PAST" = "السابقة";
+"MY_SESSIONS" = "جلساتي";
+"INDIVIDUALS" = "للأفراد";
+"COUPLE" = "للأزواج";
+"FAMILY" = "للعائلة";
+"MINUTES" = "دقيقة";
+"SERVICE_NOT_AVAILBLE_FAMILY_COUPLE" = "خدمة المحادثة غير متوفرة للاستشارات الزوجية والأسرية";
+"SERVICE_NOT_PROVIDED" = "لا يتم توفير هذه الخدمة من قبل المعالجين";
+/* ForgotPassword Screen */
+"FORGOT_PASSWORD" = "هل نسيت كلمة المرور؟";
+"ENTER_EMAIL" = "أدخل عنوان البريد الالكتروني المرتبط بحسابك.";
+"CONSULTATION_WITH" = "الاستشارة مع";
+"ALREADY_VERIFIED_EMAIL" = "هل تم التفعيل؟ تسجيل دخول";
+
+/* verificationEmail Screen */
+"VERIFICATION_EMAIL" = "إرسال رسالة تأكيد البريد الالكتروني";
+"WE_JUST_SENT" = "تم إرسال رسالة تأكيد البريد الالكتروني إلى";
+"PLEASE_FOLLOW_THE" = "يرجى اتباع التعليمات الواردة في رسالة البريد الإلكتروني للمتابعة";
+"RESEND_EMAIL" = "إعادة الإرسال";
+"CHANGE_COUNTRY" = "تغيير الدولة";
+
+/* QuestionScreen */
+"NEXT" = "Next";
+"BEFOR_WE_GET" = "All information is confidential and secured and will be shared with the provider only.";
+"WHAT_TYPE_OF" = "What type of counselling are you looking for?";
+"INDIVIDUAL_COUNSELLING" = "Individual counselling";
+"COUPLE_COUNSELLING"  = "Couple counselling";
+"TEEN_COUNSELLING" = "Family counselling";
+"WHAT_IS_YOUR_GENDER" = "What is your gender?";
+"MALE" = "ذكر";
+"FEMALE" = "أنثى";
+"WHAT_IS_YOUR" = "What is your relationship status?";
+"MARRIED" = "Married";
+"UN_MARRIED" = "Unmarried";
+"HAVE_YOU_EVER" = "Have you ever been in counselling before?";
+"YES" = "نعم";
+"REVIEWING" = "المراجعة";
+"WE_ARE_CURRENTLY_REVIEWING_MSG" = "نقوم حالياً بمراجعة مستنداتك، وسنقوم باطلاعك على المستجدات في متابعة طلبك عبر البريد الإلكتروني";
+"NO" = "لا";
+"COUNTINUE" = "استمرار";
+"OKAY" = "حسناً";
+"FIND_COUNTRY" = "البحث عن البلد";
+"UPDATE_WEEKLY_SESSION_SCHEDULE" = "Update Weekly Session Schedule";
+
+
+/* MyProfileScreen */
+"MY_ACCOUNT" = "حسابي";
+"LANGUAGE" = "اللغة";
+"CHATS" = "المحادثات";
+"UPDATE_AVAIBLITY_TO_CALENDAR" = "تحديث التواجد على التقويم الخاص بي";
+"UPDATE_INFORMATIONS" = "تحديث المعلومات";
+"APP_SECURITY" = "أمان التطبيق";
+"FORM_POSTS" = "Forum Posts";
+"PAYMENT_SETTING" = "Payment Setting";
+"MANAGE_NOTIFICATIONS" = "إدارة الإشعارات";
+"LOG_OUT" = "تسجيل الخروج";
+"PAY" = "دفع";
+/* My ProfileDetailScreen */
+"UPDATE_PROFILE_PHOTO" = "تحديث صورة الملف الشخصي";
+"USER_NAME_NICK_NAME" = "اسم المستخدم";
+"EMAIL" = "البريد الالكتروني";
+"DELETE_MY_ACCOUNT" = "حذف حسابي";
+"CHANGE_PASSWORD" = "تغيير كلمة المرور";
+"FILTER" = "تصفية";
+"CLEAR_ALL" = "مسح الكل";
+"SEARCH_NAME" = "البحث عن طريق الاسم";
+
+"CONSULTANT_PRICE" = "سعر الاستشارة (الدينار الكويتي)";
+"ALL" = "الكل";
+"APPLAY" = "تطبيق";
+"FUN_FACT" = "هل يقدم الأخصائي تكلفة متناسبة مع مستوى الدخل؟";
+"AUDIO_VIDEO_SESSION" = "جلسة صوت / فيديو";
+"CHAT_SESSION" = "جلسة المحادثة";
+"GALLERY" = "الجاليري الخاص بك";
+
+"SERVICE_OFFERED" = "الخدمات المتاحة";
+/* PinScreen */
+"CHAT_MESSAGE" = "رسالة المحادثة";
+"UNAVAILABLE" = "غير متواجد";
+"COVID_19_FREE_SUPPORT" = "COVID-19 الدعم المجاني";
+"CREATE_A_NEW_PIN" = "إنشاء الرمز السري";
+"ENTER_YOUR_PIN"  = "أدخل الرمز السري";
+"ENTER_CURRENT_PIN"  = "أدخل كلمة الحالية الرمز";
+"IF_YOU_WANT_TO_LOGOUT" = "إذا كنت ترغب في تعيين رمز سري جديد فيجب عليك تسجيل الخروج. هل تريد بالتأكيد تسجيل الخروج؟";
+"CONFIRM_NEW_PIN" = "تأكيد الرمز السري";
+"FORGOT_PIN_SET_NEW_PIN" = "هل نسيت الرمز السري؟ تعيين رمز جديد";
+"MESSAGES" = "الرسائل";
+"AUDIO_VIDEO_CONSULTATION_PRICE" = "سعر الاستشارة لمدة ٥٠ دقيقة
+جلسة صوتية/ فيديو";
+"CHAT_CONSULTATION_PRICE" = "سعر الاستشارة لمدة ٣٠ دقيقة
+جلسة المحادثة";
+"CONTACT_ADMIN_MESSAGE" = "يرجى التواصل مع  admin@juthoor.co لإدخال سعر جلساتك";
+"UPCOMMING_SESSIONS" = "الجلسات القادمة";
+
+/*Psychologist Signup*/
+"CHOOSE_YOUR_COUNTRY" = "اختر بلدك";
+"SAVE" = "حفظ";
+"FIRST_NAME" = "الاسم الأول";
+"LAST_NAME" =  "اسم العائلة";
+"COUNTRY"   =   "الدولة";
+"CODE"  =   "كود";
+"LOGOUT" = "تسجيل الخروج";
+"ARE_YOU_SURE_MSG" = "هل تريد بالتأكيد تسجيل الخروج؟";
+
+"MOBILE_NUMBER" = "رقم الهاتف";
+"LICENSE_NUMBER" = "رقم الترخيص المهني";
+"CERTIFICATE" = "الشهادات والسيرة الذاتية";
+"TITLE_OF_DOCUMENT" = "عنوان المستند";
+"HOME" = "الصفحة الرئيسية";
+"APPOINTMENTS" = "المواعيد";
+"MY_PROFILE" = "الملف الشخصي";
+"SEARCH_FOR_SOME_ONE" = "البحث عن شخص ما";
+
+/* PsychologistsHomeScreen */
+ "SESSIONS_FOR_TODAY" = "جلسات اليوم";
+"BOOKED_SESSIONS" = "المواعيد القادمة";
+"UPDATE_AVAILABILITY" = "تحديث التواجد";
+"OUR_BLOGS"="مدونتنا";
+"SEE_ALL" = "عرض الكل";
+"UPDATE_CV_MESSAGE" = "يرجى الاتصال بفريق الدعم لتحديث شهاداتك وسيرتك الذاتية.";
+
+/* Error Messages */
+
+"CHANGE_PASSWORD" = "تغيير رمز المرور";
+
+"PLEASE_SELECT_AT_LEAST_ONE_SPECIALITY" = "يرجى تحديد تخصص واحد على الأقل";
+
+"SELECT_AT_LEAST_ONE_LANGAUGE" = "يرجى تحديد لغة واحدة على الأقل";
+"LANGUAGE" = "اللغة";
+"SELECT_AT_LEAST_ONE_SERVICE" = "يرجى تحديد عرض خدمة واحد على الأقل";
+"ENTER_YOUR_EMAIL" = "يرجى إدخال البريد الالكتروني";
+"ENTER_PASSWORD" = "يرجى إدخال كلمة المرور";
+"ENTER_USERNAME" = "يرجى إدخال اسم المستخدم";
+
+
+
+
+"ENTER_FIRSTNAME" = "يرجى إدخال اسم الاسم الأول";
+"ENTER_LASTNAME" = "يرجى إدخال اسم اسم العائلة";
+"SELECT_COUNTRY"  = "الرجاء اختيار بلدك";
+"ENTER_MOBILE_NUMBER" = "يرجى إدخال رقم الهاتف";
+"ENTER_LICENCE_NUMBER" = "يرجى إدخال رقم رقم الترخيص المهني";
+"ENTER_CONFIRM_PASSWORD" = "يرجى تأكيد كلمة المرور";
+"YOU_CAN_UPLOAD_UP_TO_10" = "يمكنك إضافة ما يصل إلى 10 مستندات";
+
+/* User Home Screen */
+"UPCOMMING_SESSION" = "الجلسات القادمة";
+"SEE_ALL"   =   "عرض الكل";
+"SPECIALITY" = "التخصص";
+"AVAILABEL_PSYCHOLOGISTS" = "المعالجون المتواجدون";
+"OUR_BLOGS" = "مدونتنا";
+"READ" = "اقرأ";
+"GOOD_MORNING" = "صباح الخير";
+"GOOD_AFTERNOON" = "مساء الخير";
+"GOOD_EVENING" = "مساء الخير";
+"GOOD_NIGHT" = "تصبح على خير";
+"PSYCHOLOGISTS" = "المعالجون";
+"NO_RESULT" = "لا توجد نتائج";
+"NO_PSYCHOLOGISTS_AVAILABLE_MESSAGE" = "عذراَ، لم يتم العثور على نتائج مطابقة لبحثك. يرجى تجربة معيار آخر.";
+"CLIENTS" = "تسجيل دخول العملاء";
+"THERAPIST" = "تسجيل دخول الأخصائيين";
+
+"PERMISSION_REQUIRED" = "إذن الوصول مطلوب";
+"CONTINUE_AS"="";
+
+"ALLOW_PERMISSION_MSG" = "مطلوب منك السماح بإذن الوصول إلى جهاز الكاميرا الميكروفون لحضور الجلسة. يرجى الذهاب إلى الإعدادات والسماح لجذور بإذن الوصول.";
+"GOTO_SETTINGS" = "الذهاب إلى الإعدادات";
+"REQUEST" = "طلب استشارة";
+"REQUEST_INITAL_CONSULTATION" = "طلب استشارة";
+"REQUEST_INITIAL_SESSION" = "طلب الجلسة الأولية";
+"UPDATE_REQUIRED" = "مطلوب التحديث";
+"NEW_UPDATE_MSG" = "مطلوب عمل تحديث جديد لمتابعة استخدام التطبيق. لقد قمنا بتحسين التطبيق من خلال تجربة مستخدم أفضل، بما في ذلك الإصلاحات المطلوبة.";
+"NO_REQUEST_AVAILBLE" = "لا توجد طلبات استشارة متاحة";
+"WELL_DONE" = "أحسنت!";
+"GOT_IT" = "متابعة";
+"BOOK_YOUR_SESSION" = "احجز جلستك";
+"WOULD_YOU_LIKE_TO_BOOK" = "هل تريد حجز جلسة؟";
+"LATER" = "لاحقا";
+
+"PAYMENT_FAILURE" = "فشل عملية الدفع!";
+"TRY_AGIAN" = "حاول مرة أخرى!";
+/* PsychologistSelfScreen */
+"LET_GET_YOUR" = "يجب أن تكون المعلومات المقدمة في هذا القسم دقيقة، وسهلة القراءة، وودية، ومُرحِّبة بالعملاء كي يعرفوا المزيد من المعلومات عنك";
+"ABOUT_ME"= "معلومات عني";
+"GENDER" = "الجنس";
+"ZERO_YEAR_30" = "0 سنة - 30+ سنة";
+"MIN_KD" = "الحد الأدنى د.ك";
+"MAX_KD" = "الحد الأعلى د.ك";
+"ALL" = "الكل";
+"AUDIO_CALL" = "مكالمة صوتية";
+"START_AUDIO_CALL" = "بدء مكالمة صوتية";
+"WANT_TO_DISCARD_YOUR_CHANGE" = "هل تريد تجاهل التغييرات التي أجريتها؟";
+"MODIFY_MSAG" = "لقد قمت بتغيير بعض فلترات التصفية. ما الذي تريد فعله بهذه التغييرات؟ ";
+"DISCARD" = "تجاهل";
+"JOIN_AUDIO_CALL" = "الانضمام إلى المكالمة الصوتية";
+"JOIN_VIDEO_CALL" = "الانضمام إلى مكالمة الفيديو";
+"PENDINGS" = "قيد الانتظار";
+"PAY_CONFIRM" = "الرجاء الدفع والتأكيد";
+"PAID" = "تم الدفع";
+"PRICE" = "السعر:";
+"PRICE_WITHOUT_COLON" = "السعر";
+
+"FREE" = "مجانا";
+"PRICE_MUST_BE_GREATER" = "السعر يجب أن يكون أكبر من الصفر";
+
+"PLEASE_ENTER_PRICE" =  "الرجاء ادخال السعر";
+
+"ALSO_EXPERIENCED"= "أيضاً لديه/ا خبرة";
+"YEAR_OF_EXPERIENCE" = " سنوات الخبرة";
+"EDUCATION" = "التعليم";
+"LANGUAGE" = "اللغات";
+"SEARCH_LANGUAGE" = "البحث عن اللغات";
+"NO_SESSION_TODAY" = "لا توجد جلسة اليوم";
+"OF" = "من";
+"SERVICE_OFFERING" = "عرض الخدمات";
+"START_VIDEO_CALL" = "ابدأ مكالمة فيديو";
+"VIDEO_CALL" = "مكالمة فيديو";
+"BOOK_NEW_CONSULTATION" = "حجز استشارة جديدة";
+"SESSION_TIME_NOT_STARTED" = "لم يبدأ وقت جلستك بعد";
+"PLEASE_COMMUNICATION_MEDIUM" = "حدد نوع الجلسة";
+"GIVE_RATINGS" = "تقييم المعالج";
+
+"CONSULTATION_PRICE" = "سعر الاستشارة لكل 50 دقيقة";
+"FOR_INDIVIDUAL" = "للأفراد";
+"YEARS" = "سنوات";
+"FOR_COUPLE" = "للأزواج";
+"FOR_FAMILY" = "للعائلة";
+"CHAT" = "المحادثة";
+"AUDIO" = "محادثة صوتية";
+"VIDEO" = "محادثة فيديو";
+"SESSION_EXPIRED" = "انتهت صلاحية جلسة المستخدم";
+"VIDEO/AUDIO" = "مكالمة صوتية/فيديو";
+
+/* AvailableSessionScreen */
+
+"PLEASE_ADD_YOUR_AVAILABLE" = "يرجى إضافة أوقات الجلسة المتاحة الخاصة بك";
+
+
+/* About Home Screen */
+"ABOUT_JUTHOOR" = "عن جذور";
+"FAQ" = "الأسئلة الشائعة";
+"ABOUT_US" = "About Us";
+"TERMS_AND_CONDITION" = "شروط الاستخدام";
+"PRIVACY_POLICY" = "سياسة الخصوصية";
+"DELETE_MY_ACCOUNT" = "حذف حسابي";
+"SELECT_TYPE_OF_SESSION" = "حدد نوع الجلسة";
+"BOOK_CONSULTATION" = "حجز استشارة";
+"CURRENT_PASSWORD" = "كلمة المرور الحالية";
+"NEW_PASSWORD" = "كلمة المرور الجديدة";
+"CONFIRM_NEW_PASSWORD" =  "تأكيد كلمة المرور الجديدة";
+"SUBMIT" = "إرسال";
+"UPDATE" = "تحديث";
+"OK" = "حسناً";
+"EXP" = "الخبرة";
+"COMPLETE_NOW" = "أكمل الآن";
+
+
+"JOINING" = "Joining..";
+"BOOK_NOW" = "احجز الآن";
+
+"REFUND_MESSAGE" = "يرجى مراسلتنا على customercare@juthoor.co. ستتم عملية استرداد المبلغ المدفوع خلال 3 إلى 4 أيام عمل.";
+
+"THERAPIST_DETAILS" = "تفاصيل المعالج ";
+"CAMERA_OFF" = "camera off";
+"MUTED_THIS_CALL" = "muted this call";
+"CHAT_IS_DEACTIVATED" = "تم إلغاء تفعيل المحادثة";
+"TERMSANDCONDITION" = "terms&condition";
+"TERMS&CONDITION" = "Terms & Conditions";
+"PRIVACY" = "Privacy";
+"WE_WILL_EMAIL" = "سنرسل لك رابط إعادة تعيين كلمة المرور عبرالبريد الالكتروني";
+"SEND_EMAIl" = "إرسال البريد الالكتروني";
+"CANCELLED_SESSION" = "جلسة ملغاة";
+"CHAT_DEACTIVATED" = "لن يتمكن هذا العميل من إرسال رسالة نصية إليك إذا قمت بإلغاء تفعيل سلسلة المحادثة هذه. هل أنت متأكد أنك تريد إلغاء تفعيلها؟";
+"CHAT_ACTIVATE_MSG" = "سيتمكن العميل من إعادة إرسال رسالة نصية إليك إذا قمت بتفعيل سلسلة المحادثة هذه مرة أخرى. هل أنت متأكد أنك تريد تفعيلها؟";
+"TYPING" = "جاري الكتابة...";
+"ONLINE" = "متواجد";
+"OFFLINE" = "غير متواجد";
+"NOT_EDITABLE" = "(غير قابل للتعديل)";
+
+"INDIVIDUAL_FREE_CONSULTATION" = "للأفراد (استشارة أولية مجانية)";
+"COUPLE_FREE_CONSULTATION" = "للأزواج (استشارة أولية مجانية)";
+"FAMILY_FREE_CONSULTATION" = "للأسر (استشارة أولية مجانية)";
+
+"DELETE_ACCOUNT" = "هل تريد حذف حسابك؟ سوف تفقد كل البيانات الخاصة بك.";
+"CAMERA" = "الكاميرا";
+"DELETE" = "حذف";
+"EMAIL_RESENT" = "تم إرسال البريد الالكتروني";
+"PHOTO_ALBUM" = "ألبوم الصور";
+"PLEASE_EMAIL_US_TO_DELETE_ACCOUNT" = "يرجى مراسلتنا على contact@juthoor.co من أجل حذف بريدك الالكتروني.";
+"SELECT_SESSIONS" = "حدد الجلسات";
+"YOU_CAN_CHOOSE_YOUR_TIMINGS" = "يمكنك تحديد الأوقات الخاصة بك من خلال النقر على أيام معينة.";
+"DONE" = "تم";
+"EVERY_SESSION_WILL" = "ستكون مدة كل جلسة ٥٠ دقيقة";
+"PLEASE_SELECT_DOCUMENT" = "الرجاء إرفاق الملف أولا";
+
+"SELECT_THE_TYPE_OF_SESSION" = "يرجى تحديد نوع الجلسة";
+"PLEASE_ENTER_YOUR_REASON" = "يرجى إدخال السبب الخاص بك";
+"PLEASE_ENTER_CURRENT_PASSWORD" = "ييرجى إدخال كلمة المرور الحالية";
+"PLEASE_ENTER_NEW_PASSWORD" = "يرجى إدخال كلمة المرور الجديدة ";
+"PLEASE_ENTER_CONFIRM_PASSWORD" = "يرجى تأكيد كلمة المرور";
+"OLD_PASS_NEW_PASS_MUST_BE_SAME" = "يجب أن تتطابق كلمة المرور وتأكيد كلمة المرور";
+"DEACTIVATE" = "إلغاء التفعيل";
+"ACTIVATE" = "تفعيل";
+"IMAGE_SELECTION" = "تحديد صورة";
+"WHERE_YOU_WANT_PIC" = "ما المكان الذي تريد اختيار الصورة منه؟";
+"CAMERA_AND_MICROPHONE_OFF" = "إلغاء تشغيل الكاميرا والميكروفون";
+"NO_SLOTS_AVAILABLE" = "لا توجد مواعيد متاحة؟ الرجاء طلب استشارة أولية أو قم بالتواصل معنا من خلال البريد الالكتروني contact@juthoor.co";
+"ACCCEPT_AGREEMENT" = "يرجى منك قبول الاتفاقية";
+"PASSWORD&CONFIRM_PASSWORD_MUST" = "يجب أن تتطابق كلمة المرور وتأكيد كلمة المرور";
+"ENTER_VALID_MAIL" = "يرجى إدخال بريد الكتروني صحيح";
+"ENTER_EXPERINCE" = "يرجى إدخال الخبرة";
+"ENTER_EDUCATION" = "يرجى إدخال التعليم";
+"SELECT_YOUR_GENDER" = "يرجى تحديد الجنس";
+"PLEASE_ENTER_ABOUT_ME_INFORMATION" = "يرجى إدخال معلومات عني";
+"PLEASE_SELECT_TIME" = "يرجى تحديد الوقت";
+"SELECTED_YEARS_OF_EXPERINCE" = "سنوات الخبرة المحددة";
+"SELECT_ONE_DOCUMENT_ATLEAST" = "يرجى تحديد مستند واحد على الأقل";

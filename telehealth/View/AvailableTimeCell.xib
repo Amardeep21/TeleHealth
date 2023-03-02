@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Regular.otf">
+            <string>Quicksand-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AvailableTimeCell" id="gTV-IL-0wX" customClass="AvailableTimeCell" customModule="Juthoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="77" height="36"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="77" height="36"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UL2-9W-zIn" customClass="dateSportView" customModule="Juthoor" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="77" height="36"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:00PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESy-nc-CgN">
+                                <rect key="frame" x="12" y="10" width="53" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="14"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99215686274509807" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ESy-nc-CgN" firstAttribute="centerY" secondItem="UL2-9W-zIn" secondAttribute="centerY" id="Sew-tS-3CK"/>
+                            <constraint firstItem="ESy-nc-CgN" firstAttribute="centerX" secondItem="UL2-9W-zIn" secondAttribute="centerX" id="qft-5E-Icc"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="UL2-9W-zIn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="BIP-LJ-I4t"/>
+                <constraint firstAttribute="bottom" secondItem="UL2-9W-zIn" secondAttribute="bottom" id="OQf-cG-AOi"/>
+                <constraint firstItem="UL2-9W-zIn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="onK-zy-YWN"/>
+                <constraint firstAttribute="trailing" secondItem="UL2-9W-zIn" secondAttribute="trailing" id="rBn-nR-skR"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="bgView" destination="UL2-9W-zIn" id="cVl-Ip-doL"/>
+                <outlet property="timeLabel" destination="ESy-nc-CgN" id="I4u-2d-eSj"/>
+            </connections>
+            <point key="canvasLocation" x="124.6376811594203" y="113.83928571428571"/>
+        </collectionViewCell>
+    </objects>
+</document>

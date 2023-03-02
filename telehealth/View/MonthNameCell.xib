@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-SemiBold.ttf">
+            <string>Quicksand-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MonthNameCell" id="gTV-IL-0wX" customClass="MonthNameCell" customModule="Juthoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="43" height="43"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="43" height="43"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dOx-jD-Tlk" customClass="dateSportView" customModule="Juthoor" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="43" height="43"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MmK-CQ-0Cs">
+                                <rect key="frame" x="3" y="13" width="37" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Quicksand-SemiBold" family="Quicksand" pointSize="14"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="MmK-CQ-0Cs" firstAttribute="centerX" secondItem="dOx-jD-Tlk" secondAttribute="centerX" id="qsb-F5-wQG"/>
+                            <constraint firstItem="MmK-CQ-0Cs" firstAttribute="centerY" secondItem="dOx-jD-Tlk" secondAttribute="centerY" id="twx-wC-EM9"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="21.5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="dOx-jD-Tlk" secondAttribute="bottom" id="Jtc-5H-1HP"/>
+                <constraint firstAttribute="trailing" secondItem="dOx-jD-Tlk" secondAttribute="trailing" id="RvS-ap-uyN"/>
+                <constraint firstItem="dOx-jD-Tlk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Z2e-VO-scv"/>
+                <constraint firstItem="dOx-jD-Tlk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ZFK-OQ-fsp"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="bgView" destination="dOx-jD-Tlk" id="vtB-uO-9W4"/>
+                <outlet property="monthLabel" destination="MmK-CQ-0Cs" id="eot-Sa-9Ev"/>
+            </connections>
+            <point key="canvasLocation" x="132.60869565217394" y="113.50446428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>
